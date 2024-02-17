@@ -25,20 +25,20 @@ html {
 body {
     /*background: linear-gradient(rgb(17, 17, 17, 0.8),
 	 rgb(20, 20, 20, 0.8)), url(img/img1..png);*/
-	 background-image: url(img/img1..png);
+	background-image: url(img/img1..png);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 
 /* Menu - Header - NavBar */
 header {
 	width: 100%;
-	height: 7vh;
+	height: 10vh;
 	background: rgba(22, 22, 22, 0.2);
 }
 
@@ -229,14 +229,6 @@ header {
 	align-items: center;
 	justify-content: center;
 	border: 1px solid red;
-	/*background-color: #1f1e1f;
-	width: 100%;
-	padding-bottom: 15rem;
-	padding-left: 10rem;
-	color: white;
-	display: flex;
-	align-items: center;
-	justify-content: center;*/
 
 
 }
@@ -322,9 +314,9 @@ header {
 .itens-agenda {/*itens-cardapio***/
 
     width: 90%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-	margin-left: 5.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+	margin-left: 4.5rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     justify-content: center; /* Centraliza os itens horizontalmente */
@@ -449,8 +441,15 @@ footer{
 }
 
 @media(max-width: 1200px){
+	body{
+		display: block;
+		align-items: center;
+		justify-content: center;
+	}
+	
 	.main{ 
 	display: block;
+	
 	}
 
 	.menu-content{
@@ -467,5 +466,4 @@ footer{
 	}
 
 }
-
 
