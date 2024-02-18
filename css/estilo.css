@@ -24,15 +24,15 @@ html {
 
 body {
     /*background: linear-gradient(rgb(17, 17, 17, 0.8),
-rgb(20, 20, 20, 0.8)), url(img/img1..png);*/
-background-image: url(img/img1..png);
+	 rgb(20, 20, 20, 0.8)), url(img/img1..png);*/
+	background-image: url(img/img1..png);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
-padding-right: 0px;
+	padding-right: 0px;
 }
 
 
