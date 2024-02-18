@@ -450,7 +450,11 @@ footer{
 /* ------------------------------------------------------------------------------ */
 
 
-@media(max-width: 1400px){
+@media (max-width: 1400px){
+
+	html{
+		font-size: 50%;
+	}
 
 	body{
 		display: block;
@@ -471,9 +475,7 @@ footer{
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		height: 12%;
-		padding-left: 0px;
-		height: 9rem;
+		
 	}
 
 	/*Atualização feita por mim*/	
@@ -504,7 +506,7 @@ footer{
 			display: grid;
 			align-items: center;
 			justify-content: center;
-			margin-left: 2rem;
+			margin-left: 7rem;
 			grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 			justify-content: center; /* Centraliza os itens horizontalmente */
 			gap: 30px;
@@ -520,120 +522,14 @@ footer{
 
 	}
 /* ------------------------------------------------------------------------------ */
-	@media(max-width: 1000px){
-		
-		body{
-			display: block;
-			align-items: center;
-			justify-content: center;
+	
+		@media (min-width: 1000px){
+			html{
+				width: 100%;
+				font-size: 50%;
+			}
 			
-		}
-		
-		.main{ /*sobre nós*/
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		grid: ;
-		
-		}
-
-		header{ /*navbar*/
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			height: 12%;
-			padding-left: 0px;
-			height: 9rem;
-		}
-
-		/*Atualização feita por mim*/	
-		.menu-content{ /* MENU*/
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			margin-top: 5rem;
-			height: 12px;
-			padding-left: 0px;
-		}	
-
-		.menu-content .list-itens{
-			margin-top: 5rem;
-
-		}
-
-
-		.sobre-nos{
-			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-			justify-content: center; /* Centraliza os itens horizontalmente */
-			gap: 10px;
-
-		}
-
-
-		.sobre-nos img{ /*imagem Sobre Nós*/
-			align-items: center;
-			justify-content: center;
-			margin-right: 13rem;
-
-		}
-
-		.sobre-nos .contentsobre h2{
-			align-items: center;
-			justify-content: center;
-			display: block;
-			margin-left: 10rem;
 			
-
-		}
-		.sobre-nos .contentsobre p{
-			width: 500px;
-			align-items: center;
-			justify-content: center;
-			padding-left: 10rem;
-			
-		}
-
-		.primary-text{
-			font-size: 4rem;
-		}
-
-		.second-text{
-			font-size: 2rem;
-		}
-
-		.itens-agenda{/*separa as viagens em única tela column*/
-		display: grid;
-		align-items: center;
-		justify-content: center;
-		padding-left: 16rem;	
-		grid-template-columns: repeat(center, minmax(150px, 350px));
-		justify-content: center; /* Centraliza os itens horizontalmente */
-		gap: 30px;
-		padding: 30px;
-		margin-left: 50px;
-			
-		}
-
-		.contatos h3{
-			font-size: 4rem;
-		}
-
-		.contatos-secao{
-			width: 350px;
-			font-size: 1.2rem;
-		}
-
-		footer{
-			height: 10px;
-			font-size: 1rem;
-			padding-bottom: 1rem;
-			
-		
-		}
-	}
-
-/* ------------------------------------------------------------------------------ */	
-		@media(max-width: 1000px){
 			body{
 				display: block;
 				align-items: center;
@@ -742,6 +638,208 @@ footer{
 				
 			
 			}	
+
+			@media(max-width: 1000px){
+		
+				body{
+					display: block;
+					align-items: center;
+					justify-content: center;
+					
+				}
+				
+				.main{ /*sobre nós*/
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				grid: 10px;
+				
+				}
+		
+				header{ /*navbar*/
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					
+				
+				
+				}
+		
+				/*Atualização feita por mim*/	
+				.menu-content{ /* MENU*/
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					margin-top: 5rem;
+					height: 12px;
+					padding-left: 0px;
+				}	
+		
+				.menu-content .list-itens{
+					margin-top: 5rem;
+		
+				}
+		
+		
+				.sobre-nos{
+					grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+					justify-content: center; /* Centraliza os itens horizontalmente */
+					gap: 10px;
+		
+				}
+		
+		
+				.sobre-nos img{ /*imagem Sobre Nós*/
+					align-items: center;
+					justify-content: center;
+					margin-right: 13rem;
+		
+				}
+		
+				.sobre-nos .contentsobre h2{
+					align-items: center;
+					justify-content: center;
+					display: block;
+					margin-left: 10rem;
+					
+		
+				}
+				.sobre-nos .contentsobre p{
+					width: 500px;
+					align-items: center;
+					justify-content: center;
+					padding-left: 10rem;
+					
+				}
+		
+				.primary-text{
+					font-size: 4rem;
+				}
+		
+				.second-text{
+					font-size: 2rem;
+				}
+		
+				.itens-agenda{/*separa as viagens em única tela column*/
+				display: grid;
+				align-items: center;
+				justify-content: center;
+				padding-left: 16rem;	
+				grid-template-columns: repeat(center, minmax(150px, 350px));
+				justify-content: center; /* Centraliza os itens horizontalmente */
+				gap: 30px;
+				padding: 30px;
+				margin-left: 50px;
+					
+				}
+		
+				.contatos h3{
+					font-size: 4rem;
+				}
+		
+				.contatos-secao{
+					width: 350px;
+					font-size: 1.2rem;
+				}
+		
+				footer{
+					height: 10px;
+					font-size: 1rem;
+					padding-bottom: 1rem;
+					
+				
+				}
+			}
+		
+		/* ------------------------------------------------------------------------------ */	
+
+		@media (max-width: 768px) {
+			html {
+				font-size: 45%;
+			}
+		
+			.content {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				padding: 0px 40px;
+			}
+		
+			.agenda .itens-agenda {
+				grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+				margin-left: 0; /* Remova a margem lateral para evitar deslocamento */
+			}
+		
+			
+		}
+		@media (max-width: 650px) {
+			html {
+				font-size: 45%;
+			}
+		
+			.content {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				padding: 0px 40px;
+			}
+		
+			.agenda .itens-agenda {
+				grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+				margin-left: 0; /* Remova a margem lateral para evitar deslocamento */
+			}
+		
+			
+		}
+
+		@media (max-width: 500px) {
+			html {
+				font-size: 45%;
+			}
+		
+			.content {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				padding: 0px 40px;
+			}
+		
+			.agenda .itens-agenda {
+				grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+				margin-left: 0; /* Remova a margem lateral para evitar deslocamento */
+			}
+		
+			
+		}
+
+		@media (max-width: 480px) {
+			html {
+				font-size: 45%;
+			}
+		
+			.content {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				padding: 0px 40px;
+			}
+		
+			.agenda .itens-agenda {
+				grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+				margin-left: 0; /* Remova a margem lateral para evitar deslocamento */
+			}
+		
+			
+		}
+		
+		
+		
+
+
+
+
+
+
 
 }
 
