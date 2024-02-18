@@ -444,15 +444,26 @@ footer{
 
 }
 
-@media(max-width: 1200px){
+
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+
+
+@media(max-width: 1400px){
+
 	body{
 		display: block;
 		align-items: center;
 		justify-content: center;
+		
 	}
 	
 	.main{ /*sobre nós*/
-	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	grid: 20px ;
 	
 	}
 
@@ -466,7 +477,7 @@ footer{
 	}
 
 	/*Atualização feita por mim*/	
-	.menu-content{
+	.menu-content{ /* MENU*/
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -477,67 +488,260 @@ footer{
 
 	.menu-content .list-itens{
 		margin-top: 5rem;
+
 	}
 
-	.sobre-nos img{
+
+
+
+		.sobre-nos img{
+			align-items: center;
+			justify-content: center;
+			margin-right: 10rem;
+
+		}
+		.itens-agenda{/*separa as viagens em única tela column*/
+			display: grid;
+			align-items: center;
+			justify-content: center;
+			margin-left: 2rem;
+			grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+			justify-content: center; /* Centraliza os itens horizontalmente */
+			gap: 30px;
+				
+			}
+
+		.sobre-nos .contentsobre p{
+			width: 400px;
+			align-items: center;
+			justify-content: center;
+			
+		}
+
+	}
+/* ------------------------------------------------------------------------------ */
+	@media(max-width: 1000px){
+		
+		body{
+			display: block;
+			align-items: center;
+			justify-content: center;
+			
+		}
+		
+		.main{ /*sobre nós*/
+		display: flex;
 		align-items: center;
 		justify-content: center;
-		margin-right: 13rem;
+		grid: ;
+		
+		}
 
-	}
+		header{ /*navbar*/
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 12%;
+			padding-left: 0px;
+			height: 9rem;
+		}
 
-	.sobre-nos .contentsobre h2{
+		/*Atualização feita por mim*/	
+		.menu-content{ /* MENU*/
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-top: 5rem;
+			height: 12px;
+			padding-left: 0px;
+		}	
+
+		.menu-content .list-itens{
+			margin-top: 5rem;
+
+		}
+
+
+		.sobre-nos{
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+			justify-content: center; /* Centraliza os itens horizontalmente */
+			gap: 10px;
+
+		}
+
+
+		.sobre-nos img{ /*imagem Sobre Nós*/
+			align-items: center;
+			justify-content: center;
+			margin-right: 13rem;
+
+		}
+
+		.sobre-nos .contentsobre h2{
+			align-items: center;
+			justify-content: center;
+			display: block;
+			margin-left: 10rem;
+			
+
+		}
+		.sobre-nos .contentsobre p{
+			width: 500px;
+			align-items: center;
+			justify-content: center;
+			padding-left: 10rem;
+			
+		}
+
+		.primary-text{
+			font-size: 4rem;
+		}
+
+		.second-text{
+			font-size: 2rem;
+		}
+
+		.itens-agenda{/*separa as viagens em única tela column*/
+		display: grid;
 		align-items: center;
 		justify-content: center;
-		display: block;
-		margin-left: -4rem;
+		padding-left: 16rem;	
+		grid-template-columns: repeat(center, minmax(150px, 350px));
+		justify-content: center; /* Centraliza os itens horizontalmente */
+		gap: 30px;
+		padding: 30px;
+		margin-left: 50px;
+			
+		}
+
+		.contatos h3{
+			font-size: 4rem;
+		}
+
+		.contatos-secao{
+			width: 350px;
+			font-size: 1.2rem;
+		}
+
+		footer{
+			height: 10px;
+			font-size: 1rem;
+			padding-bottom: 1rem;
+			
 		
-
-	}
-	.sobre-nos .contentsobre p{
-		width: 400px;
-		align-items: center;
-		justify-content: center;
-		margin-left: 10rem;
-		
+		}
 	}
 
-	.primary-text{
-		font-size: 4rem;
-	}
-
-	.second-text{
-		font-size: 2rem;
-	}
-
-	.itens-agenda{
-	display: grid;
-	align-items: center;
-	justify-content: center;
-	margin-left: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 350px));
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    gap: 30px;
-		
-	}
-
-	.contatos h3{
-		font-size: 4rem;
-	}
-
-	.contatos-secao{
-		width: 350px;
-		font-size: 1.2rem;
-	}
-
-	footer{
-		height: 10px;
-		font-size: 1rem;
-		padding-bottom: 1rem;
-		
+/* ------------------------------------------------------------------------------ */	
+		@media(max-width: 1000px){
+			body{
+				display: block;
+				align-items: center;
+				justify-content: center;
+				
+			}
+			
+			.main{ /*sobre nós*/
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			grid: ;
+			
+			}
 	
-	}
+			header{ /*navbar*/
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				height: 12%;
+				padding-left: 0px;
+				height: 9rem;
+			}
+	
+			/*Atualização feita por mim*/	
+			.menu-content{ /* MENU*/
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				margin-top: 5rem;
+				height: 12px;
+				padding-left: 0px;
+			}	
+	
+			.menu-content .list-itens{
+				margin-top: 5rem;
+	
+			}
+	
+	
+			.sobre-nos{
+				grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+				justify-content: center; /* Centraliza os itens horizontalmente */
+				gap: 10px;
+	
+			}
+	
+	
+			.sobre-nos img{ /*imagem Sobre Nós*/
+				align-items: center;
+				justify-content: center;
+				margin-right: 13rem;
+	
+			}
+	
+			.sobre-nos .contentsobre h2{
+				align-items: center;
+				justify-content: center;
+				display: block;
+				margin-left: 10rem;
+				
+	
+			}
+			.sobre-nos .contentsobre p{
+				width: 500px;
+				align-items: center;
+				justify-content: center;
+				padding-left: 10rem;
+				
+			}
+	
+			.primary-text{
+				font-size: 4rem;
+			}
+	
+			.second-text{
+				font-size: 2rem;
+			}
+	
+			.itens-agenda{/*separa as viagens em única tela column*/
+			display: grid;
+			align-items: center;
+			justify-content: center;
+			padding-left: 16rem;	
+			grid-template-columns: repeat(center, minmax(150px, 350px));
+			justify-content: center; /* Centraliza os itens horizontalmente */
+			gap: 30px;
+			padding: 30px;
+			margin-left: 50px;
+				
+			}
+	
+			.contatos h3{
+				font-size: 4rem;
+			}
+	
+			.contatos-secao{
+				width: 350px;
+				font-size: 1.2rem;
+			}
+	
+			footer{
+				height: 10px;
+				font-size: 1rem;
+				padding-bottom: 1rem;
+				
+			
+			}	
 
 }
-
 
