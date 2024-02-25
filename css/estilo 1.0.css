@@ -451,241 +451,49 @@ footer{
 /* ------------------------------------------------------------------------------ */
 
 
-@media (max-width: 1900px){
-
-	body{
-        padding-bottom: 0px;
-    }
-    
-    .sobre-nos{
-		
-		font-size: 1.1rem;
-        
-	}
-
-	.sobre-nos h2 {
-		
-		font-size: 6rem;
-		
-	}
-
-    .itens-agenda{
-        margin: auto;
-    }
-   
-
-}
-
-@media (max-width: 1400px){
-
-    body{
-        padding-bottom: auto;
-    }
-
-    .primary-text{
-        padding-top: 10px;
-    }
-
-
-}
-
-@media (max-width: 1200px){
-
-    body{
-        padding-bottom: auto;
-    }
-
-    .primary-text{
-        padding-top: 10px;
-     
-    }
-
-
-}
-
-@media screen (min-width:1151px) and  (max-width: 1181px){
-
-    body{
-       
-    }
-
-    .primary-text{
-        padding-top: -50px;
-       
-    }
-
-    .sobre-nos{
-        padding-top: 0px;
-        padding-bottom: 200px;
-        width: 70%;
-
-    }
-
-    .sobre-nos img{
-		width: 250px;
-		height: 250px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-		
-     
-    }
-
-    .sobre-nos h2 {
-        font-size: 4.5rem;
-		padding-left: 20rem;
-
-    }
-   
-    .sobre-nos p {
-        font-size: 1.8rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-left: 20rem;
-        padding-top: 0rem;
-
-    }
-
+@media (max-width:720px){
 	
-
-
-}
-
-
-
-
-@media screen (min-width:911px) and (max-width: 1150px){
-
-    .sobre-nos img{
-        padding-left: 0px;
-    }
-    
-    .sobre-nos h2 {
-        
-       padding-left: 160px;
-        
-    }
-
-    .sobre-nos p {
-        
-        padding-left: 190px;
-         
-     }
-
-
-}
-
-@media screen (min-width:800px) and (max-width: 910px){
-
-    body{
-	
-		
-
-
-    }
-
-    .primary-text{
-        padding-top: -50px;
-       
-    }
-
-	header {
-		border: 2px solid red;
+	html{
+		width: 50vw;
+		height: 150vh;
 	}
-
-    .sobre-nos{
-        width: 80%;
-
-    }
-
-    .sobre-nos img{
-        width: 250px;
-        height: 250px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .sobre-nos h2 {
-        font-size: 3.5rem;
-        padding-top: 70px;
-
-    }
-   
-    .sobre-nos p {
-        font-size: 1.5rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-left: 170px;
-        padding-top: 10px;
-
-    }
-
-	.agenda{
-		
-		width: 100%;
-	}
-
-}
-
-@media (max-width:375px){
-
-	
-	
 	
 	body{
-		border: 2px solid rgb(255, 255, 255);
-		width: 100px;
 		
-		
-		
-	}
-
-	body img{
-		border: 2px solid rgb(255, 247, 0);
-		width: 100vw;
-	}
-
-	
-	.list-itens{
-		border: 1px solid red;
-		margin: 0px;
+		width: 72vw;
 		
 	}
 
 	header{
+		width: 100vw;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		
-		width: 100%;
-		margin: 0px;
-		padding-right: 20px;
 	}
 
-	.main-content{
-	
-		width: 375px;
-		height: 667px;
+	.list-itens{
+		font-size: 1rem;
 	}
 
 	.primary-text{
-		font-size: 3.5rem;
+		font-size: 3rem;
+		display: flex;
+		padding-left: 50vw;
 		
+	
 	}
 
 	.second-text{
-		font-size: 1.5rem;
-	}
-
-	.itens-agenda{
-		width: 100%;
-		margin-right: 0px;
-	}
-
-	.contatos{
-		width: 100%;
+		font-size: 1.1rem;
+		display: flex;
+		padding-left: 30vw;
 
 	}
+
+	
+
+
 
 }
 
