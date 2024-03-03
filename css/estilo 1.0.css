@@ -35,7 +35,7 @@ body {
     background-position-y: 0px;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
 	
 }
 
@@ -47,7 +47,6 @@ header {
 	background: rgba(22, 22, 22, 0.8);
 }
 
-
 .menu-content { /*Navbar*/
 	text-transform: uppercase;
 	height: 100%;
@@ -56,6 +55,14 @@ header {
 	align-items: center;
 	font-size: 2.5rem;
 	
+}
+
+.logo{
+	margin: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 }
 
 .logo {
@@ -121,12 +128,13 @@ header {
 
 
 .primary-text {
-    width: 850px;
-	padding-top: 12rem;
-    font-size: 5rem;
-    margin-bottom: 1rem;
+    width: 100vw;
+	height: 20vh;
+	margin-top: 100px;
+    font-size: 18rem;
     text-align: center;
     animation: changeColor 2s infinite alternate;
+	
 }
 
 .primary-text:hover{
@@ -152,8 +160,7 @@ header {
 
 .second-text {
 	padding-top: 5rem;
-	margin-bottom: 30rem;
-	font-size: 2rem;
+	font-size: 5rem;
 	color: rgb(165, 165, 165);
 	text-transform: uppercase;
 }
@@ -167,7 +174,7 @@ header {
 
 /* Botões */
 .btns {
-	margin-top: -200px;
+	margin-top: 100px;
 	margin-bottom: 300px;
 	display: flex;
 	flex-direction: flex; /* Altera a direção dos botões para coluna */
@@ -176,8 +183,8 @@ header {
 }
 
 .btns button {
-	width: 150%; /* Define a largura dos botões como 100% */
-	height: 60px;
+	width: 100%; /* Define a largura dos botões como 100% */
+	height: 120px;
 	cursor: pointer;
 	border: 2px solid white;
 	color: white;
@@ -277,6 +284,7 @@ header {
 
 .agenda{
 	width: 100%;/*mudado de vw para %*/
+	margin-top: 100px;
 	display: flex; /*permite modificar a posição*/
 	flex-direction: column;
 	align-items: center;
@@ -318,12 +326,13 @@ header {
 
 .itens-agenda {/*itens-cardapio***/
 
-    width: 90%;
+    width: 90vw;
     margin-top: 1rem;
     margin-bottom: 1rem;
 	margin-left: 4.5rem;
+	margin-right: 8rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
     justify-content: center; /* Centraliza os itens horizontalmente */
     gap: 30px;
 }
@@ -451,6 +460,17 @@ footer{
 /* ------------------------------------------------------------------------------ */
 
 
+
+@media (max-width:2500px){
+
+	.primary-text{
+		font-size: 10rem;
+	}
+
+
+
+
+}
 @media screen and (min-width:699px) and (max-width:1200px){
 	
 	/*html{
@@ -462,7 +482,7 @@ footer{
 	
 	body{	
 		width: 100vw;
-		
+		height: 120vh;
 	
 	}
 	
@@ -493,6 +513,20 @@ footer{
 		
 
 
+	}
+
+	header{
+		width: 100vw;
+		height: 10vh;
+		
+
+	}
+
+	.logo{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
 	}
 
 
@@ -577,7 +611,7 @@ footer{
 
 		body{	
 			width: 100vw;
-			height: 100vh;
+			height: 120vh;
 			
 			
 		}
@@ -591,13 +625,23 @@ footer{
 		
 	
 		header{
+			width: 0vw;
+			height: 0vw;
+			
 
+		}
+
+		.logo{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			
 		}
 	
 		
 		.main-content{
 			margin-top: 0px;
-			height: 50vh;
+			height: 0px;
 		
 		}
 
@@ -612,9 +656,9 @@ footer{
 	
 	
 		.primary-text{
-			width: 60vw;
-			
-			font-size: 5rem;
+			width: 100vw;
+			margin-top: 400px;
+			font-size: 8rem;
 			
 			
 	
@@ -622,7 +666,8 @@ footer{
 	
 		.second-text{
 			width: 80vw;
-			font-size: 1.8rem;
+			font-size: 2rem;
+			margin-top: 250px;
 			display: flex;
 			align-items: center;
 			justify-content: center;
@@ -641,7 +686,7 @@ footer{
 
 		.agenda{
 			width: 100vw;
-			margin-top: 40px;
+			margin-top: 280px;
 			border: 2px solid green;
 			
 		}
@@ -680,9 +725,17 @@ footer{
 			}
 		
 			header{
-				width: 100%;
-				gap: 10px;
-			
+				width: 0vw;
+				height: 0vw;
+				
+	
+			}
+	
+			.logo{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				
 			}
 		
 		
@@ -805,9 +858,17 @@ footer{
 			}
 		
 			header{
-				width: 100%;
-				gap: 2px;
-			
+				width: 0vw;
+				height: 0vw;
+				
+	
+			}
+	
+			.logo{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				
 			}
 		
 		
@@ -929,9 +990,17 @@ footer{
 			}
 		
 			header{
-				width: 100%;
-				gap: 2px;
-			
+				width: 0vw;
+				height: 0vw;
+				
+	
+			}
+	
+			.logo{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				
 			}
 		
 		
@@ -1056,9 +1125,17 @@ footer{
 				}
 			
 				header{
-					width: 100%;
-					gap: 2px;
-				
+					width: 0vw;
+					height: 0vw;
+					
+		
+				}
+		
+				.logo{
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					
 				}
 			
 			
