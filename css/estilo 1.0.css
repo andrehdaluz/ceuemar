@@ -453,26 +453,28 @@ footer{
 
 @media screen and (min-width:699px) and (max-width:1200px){
 	
-	/*html{
+	html{
 	background-size: contain;
-    background-repeat: no-repeat; /* para garantir que o background não se repita 
-    background-position: center; /* opcional: para centralizar o background 
+    background-repeat: no-repeat; /* para garantir que o background não se repita */
+    background-position: center; /* opcional: para centralizar o background */
 		
-	}*/
+	}
 	
 	body{	
 		width: 100vw;
-		background-size: cover;
 	
 	}
 	
 	.content{
 		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		padding: 0px 90px;
-	
+		align-items: center;
+		justify-content: center;
 
+	}
+
+	.content .list-itens{
+		display: flex;
+		
 	}
 
 	.menu-content{
@@ -482,13 +484,7 @@ footer{
 		justify-content: center;
 	}
 
-	header{
-		width: 100%;
-		gap: 10px;
 	
-	}
-
-
 	.main-content{
 		margin-top: 0px;
 		height: 50vh;
@@ -498,83 +494,6 @@ footer{
 
 	}
 
-	/*Atualização Menu - Início*/
-
-	.content .list-itens{
-
-		display: none;
-	
-	
-	}
-
-	/*.one,
-	.two,
-	.three {
-
-		width: 80%;
-		height: 2px;
-		background-color: white;
-		margin: 6px auto;
-		transition: 0.5s;
-		margin-top: 10px;
-	
-	}
-
-	.menu-toggle{
-		width: 30px;
-		height: 30px;
-
-	}
-
-
-	.content.on { 
-		position: fixed;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		width: 100vw;
-		height: 100vh;
-		background-color: rgba(30, 31, 30, 0.8);
-		z-index: 10;
-		display: flex;
-		justify-self: center;
-		align-items: center;
-	}
-
-	.content.on .logo{
-		display: none;
-	}
-
-	.content.on .menu-toggle{
-	/	position: absolute;
-		right: 40px;
-		top: 20px;
-
-	}
-
-	.content.on .list-itens{
-		display: block;
-
-	}
-
-	.content.on .list-itens li{
-		display: flex;
-		align-items: center;
-
-	}
-
-	.content.on .list-itens li a {
-		display: block;
-		font-size: 2rem;
-
-	}*/
-
-
-
-
-
-
-	/*Atualização Menu - Fim*/
 
 	.primary-text{
 		width: 60vw;
@@ -595,20 +514,57 @@ footer{
 	}
 
 	.main{
-		width: 90vw;
+		width: 100vw;
 		display: flex;
 		flex-direction: column;
-		margin-right: 20px ;
+		margin: 40px 20px ;
+		border: 2px solid red;
+	}
+
+
+	.sobre-nos{
+		width: 100vw;
+		height: 100vh;
+		
 	
 	}
 
-	/*Atualização Menu - Início*/
-
-	.content .list-itens{
-
-		display: none;
+	.sobre-nos h2{
+		font-size: 4rem;
 	
 	
+		
+	}
+
+	.sobre-nos p{
+		width: 100vw;	
+		padding-right: 70px;
+		font-size: 1.5rem;
+		margin-right: 20px;
+	
+	}
+
+	.sobre-nos .img-ceuemar{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding-right: 100px;
+		
+		
+		
+	
+	}
+
+	.agenda{
+		padding-top: 0px;
+		
+	}
+
+	.agenda .itens-agenda{
+		width: 70vw;
+		padding-right: 60px;
+	
+		
 	}
 
 }
@@ -706,7 +662,7 @@ footer{
 		
 		}
 
-		.sobre-nos img{
+		.sobre-nos .img-ceuemar{
 			width: 80vw;
 			height: 100vh;
 			width: 350px;
@@ -824,7 +780,7 @@ footer{
 			
 			}
 
-			.sobre-nos img{
+			.sobre-nos .img-ceuemar{
 				width: 80vw;
 				height: 100vh;
 				width: 250px;
@@ -942,12 +898,12 @@ footer{
 			
 			}
 
-			.sobre-nos img{
+			.sobre-nos .img-ceuemar{
 				width: 70vw;
 				height: 100vh;
 				width: 150px;
 				height: 150px;
-				margin-left: 120px;
+				
 				
 
 			}
@@ -1059,12 +1015,12 @@ footer{
 			
 			}
 
-			.sobre-nos img{
+			.sobre-nos .img-ceuemar{
 				width: 70vw;
 				height: 100vh;
 				width: 100px;
 				height: 100px;
-				margin-left: 120px;
+				
 				
 
 			}
@@ -1177,13 +1133,12 @@ footer{
 				
 				}
 	
-				.sobre-nos img{
+				.sobre-nos .img-ceuemar{
 					width: 70vw;
 					height: 100vh;
 					width: 150px;
 					height: 150px;
-					margin-left:75px;
-					border: 2px solid white;
+					
 	
 				}
 			
@@ -1294,13 +1249,12 @@ footer{
 				
 				}
 	
-				.sobre-nos img{
+				.sobre-nos .img-ceuemar{
 					width: 70vw;
 					height: 100vh;
 					width: 150px;
 					height: 150px;
-					margin-left:30px;
-					border: 2px solid white;
+					
 	
 				}
 			
