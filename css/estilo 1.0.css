@@ -453,15 +453,16 @@ footer{
 
 @media screen and (min-width:699px) and (max-width:1200px){
 	
-	html{
+	/*html{
 	background-size: contain;
-    background-repeat: no-repeat; /* para garantir que o background não se repita */
-    background-position: center; /* opcional: para centralizar o background */
+    background-repeat: no-repeat; /* para garantir que o background não se repita 
+    background-position: center; /* opcional: para centralizar o background 
 		
-	}
+	}*/
 	
 	body{	
 		width: 100vw;
+		
 	
 	}
 	
@@ -514,11 +515,11 @@ footer{
 	}
 
 	.main{
-		width: 100vw;
+		width: 80vw;
 		display: flex;
 		flex-direction: column;
 		margin: 40px 20px ;
-		border: 2px solid red;
+		
 	}
 
 
@@ -537,10 +538,14 @@ footer{
 	}
 
 	.sobre-nos p{
-		width: 100vw;	
-		padding-right: 70px;
+		width: 75vw;	
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-left: 20px;
 		font-size: 1.5rem;
-		margin-right: 20px;
+
+	
 	
 	}
 
@@ -562,7 +567,6 @@ footer{
 
 	.agenda .itens-agenda{
 		width: 70vw;
-		padding-right: 60px;
 	
 		
 	}
@@ -573,16 +577,16 @@ footer{
 
 		body{	
 			width: 100vw;
-			background-size: cover;
+			
 			
 		}
 		
-		.content{
+		.conteudo-principal{
+			height: 40vh;
 			width: 100vw;
-	
+			
+			
 		}
-
-
 		
 	
 		.menu-content{
@@ -637,38 +641,23 @@ footer{
 		}
 
 		.main{
-			padding-top: 400px;
-			width: 90vw;
+			width: 80vw;
 			display: flex;
 			flex-direction: column;
-		
-		}
-
-		.sobre-nos{
-			width: 100vw;
-			height: 150px;
-		}
-
-		.sobre-nos h2{
-			font-size: 4rem;
-			margin-bottom: 0px;
+			margin-top: 500px;
 			
 		}
 
-		.sobre-nos p{
-			width: 85vw;	
-			font-size: 1.5rem;
-			margin-right: 20px;
 		
+
+		.agenda{
+			width: 100vw;
 		}
 
-		.sobre-nos .img-ceuemar{
-			width: 80vw;
-			height: 100vh;
-			width: 350px;
-			height: 350px;
-			margin-left:80px;
-		
+		.agenda .itens-agenda{
+			width: 70vw;
+			margin: 20px;
+			
 		}
 
 	
@@ -787,6 +776,15 @@ footer{
 				height: 250px;
 
 			}
+
+			.agenda{
+				width: 100vw;
+			}
+
+			.agenda .itens-agenda{
+				width: 70vw;
+				margin: 20px;
+			}
 			
 			
 		
@@ -903,9 +901,16 @@ footer{
 				height: 100vh;
 				width: 150px;
 				height: 150px;
-				
-				
+		
+			}
 
+			.agenda{
+				width: 100vw;
+			}
+
+			.agenda .itens-agenda{
+				width: 70vw;
+				margin: 20px;
 			}
 		
 		}
@@ -1024,11 +1029,20 @@ footer{
 				
 
 			}
+
+			.agenda{
+				width: 100vw;
+			}
+
+			.agenda .itens-agenda{
+				width: 70vw;
+				margin: 20px;
+			}
 		
 		}
 		
 
-			@media screen and (min-width:330px) and (max-width:400px){
+			@media screen and (min-width:300px) and (max-width:400px){
 
 				body{	
 					width: 100vw;
@@ -1141,124 +1155,18 @@ footer{
 					
 	
 				}
-			
-			}
 
-			@media screen and (min-width:230px) and (max-width:329px){
-
-				body{	
+				.agenda{
 					width: 100vw;
-					background-size: cover;
-				
-				}
-				
-				.content{
-					
-					width: 100vw;
-			
-				}
-			
-				.menu-content{
-					font-size: 1.1rem;
-					display: flex;
-					align-items: center;
-					justify-content: center;
-				}
-			
-				header{
-					width: 100%;
-					gap: 2px;
-				
-				}
-			
-			
-				.main-content{
-					margin-top: 0px;
-					height: 50vh;
-					/*gap: 20px;*/
-					
-					
-			
-			
-				}
-
-				/*Atualização Menu - Início*/
-
-				.content .list-itens{
-
-					display: none;
-				
-				
-				}
-
-	
-			
-				.primary-text{
-					width: 60vw;
-					font-size: 1.8rem;
-					
-					
-			
-				}
-			
-				.second-text{
-					width: 80vw;
-					font-size: 1rem;
-					display: flex;
-					align-items: center;
-					justify-content: center;
-			
-				}
-
-				.btns{
-					width: 90%;
-					
-				}
-
-				.conteudo-principal{
-					height: 100px;
-					margin-bottom: 0px;
-				}
-
-				.main{
-					width: 90vw;
-					height: 10vh;
-					display: flex;
-					flex-direction: column;
-					margin-right: 70px;
-					padding-left: 20px;
-					
-					
-				}
-
-				.sobre-nos{
-					width: 100vw;
-					height: 150px;
-				}
-				
-				.sobre-nos h2{
-					font-size: 4rem;
-					margin-bottom: 0px;
-					
 				}
 	
-				.sobre-nos p{
-					width: 85vw;	
-					font-size: 1.5rem;
-					margin-right: 20px;
-				
-				}
-	
-				.sobre-nos .img-ceuemar{
+				.agenda .itens-agenda{
 					width: 70vw;
-					height: 100vh;
-					width: 150px;
-					height: 150px;
-					
-	
+					margin: 20px;
 				}
 			
 			}
-		
+
+			
 	
 		
