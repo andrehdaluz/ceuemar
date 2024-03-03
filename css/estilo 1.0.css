@@ -498,7 +498,7 @@ footer{
 
 	.primary-text{
 		width: 60vw;
-		font-size: 3rem;
+		font-size: 6rem;
 
 
 		
@@ -577,6 +577,7 @@ footer{
 
 		body{	
 			width: 100vw;
+			height: 100vh;
 			
 			
 		}
@@ -589,27 +590,15 @@ footer{
 		}
 		
 	
-		.menu-content{
-			font-size: 2rem;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-		}
-	
 		header{
-			width: 100%;
-			gap: 10px;
-		
+
 		}
 	
-	
+		
 		.main-content{
 			margin-top: 0px;
 			height: 50vh;
 		
-			
-	
-	
 		}
 
 		
@@ -625,7 +614,7 @@ footer{
 		.primary-text{
 			width: 60vw;
 			
-			font-size: 3rem;
+			font-size: 5rem;
 			
 			
 	
@@ -652,11 +641,14 @@ footer{
 
 		.agenda{
 			width: 100vw;
+			margin-top: 40px;
+			border: 2px solid green;
+			
 		}
 
 		.agenda .itens-agenda{
 			width: 70vw;
-			margin: 20px;
+			
 			
 		}
 
@@ -666,7 +658,7 @@ footer{
 	}
 
 
-		@media screen and (min-width:502px) and (max-width:601px){
+		@media screen and (min-width:450px) and (max-width:601px){
 
 			body{	
 				width: 100vw;
@@ -713,7 +705,7 @@ footer{
 			.primary-text{
 				width: 60vw;
 				
-				font-size: 2rem;
+				font-size: 4rem;
 			
 			}
 		
@@ -842,7 +834,7 @@ footer{
 		
 			.primary-text{
 				width: 60vw;
-				font-size: 1.8rem;
+				font-size: 3.5rem;
 				
 				
 		
@@ -966,7 +958,7 @@ footer{
 		
 			.primary-text{
 				width: 60vw;
-				font-size: 1.8rem;
+				font-size: 4rem;
 				
 				
 		
@@ -1093,7 +1085,7 @@ footer{
 			
 				.primary-text{
 					width: 60vw;
-					font-size: 1.8rem;
+					font-size: 3rem;
 					
 					
 			
