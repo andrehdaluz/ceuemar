@@ -627,6 +627,7 @@ footer{
 		.conteudo-principal{
 			height: 40vh;
 			width: 100vw;
+			border: 2px solid rgb(85, 11, 234);
 			
 			
 		}
@@ -781,7 +782,7 @@ footer{
 
 			.conteudo-principal{
 				height: 100px;
-				margin-bottom: 0px;
+				border: 2px solid rgb(255, 242, 1);
 			}
 
 			.main{
@@ -921,12 +922,15 @@ footer{
 
 			.btns{
 				width: 90%;
+				height: 100vh;
+				margin-top: 150px;
 				
 			}
 
 			.conteudo-principal{
-				height: 100px;
-				margin-bottom: 0px;
+				height: 100vh;
+				margin-top:50px;
+				border: 2px solid greenyellow;
 			}
 
 			.main{
