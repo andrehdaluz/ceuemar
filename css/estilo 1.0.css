@@ -35,7 +35,7 @@ body {
     background-position-y: 0px;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 120vh;
+    height: 140vh;
 	
 }
 
@@ -461,7 +461,15 @@ footer{
 
 
 
-@media (max-width:2500px){
+@media screen and (min-width:1201px) and (max-width:2500px){
+
+
+	.body{
+		width: 100vw;
+		height: 140vh;
+		border: 2px solid red;
+	}
+
 
 	.primary-text{
 		font-size: 10rem;
@@ -482,7 +490,7 @@ footer{
 	
 	body{	
 		width: 100vw;
-		height: 120vh;
+		height: 140vh;
 	
 	}
 	
@@ -611,7 +619,7 @@ footer{
 
 		body{	
 			width: 100vw;
-			height: 120vh;
+			height: 140vh;
 			
 			
 		}
@@ -687,7 +695,7 @@ footer{
 		.agenda{
 			width: 100vw;
 			margin-top: 280px;
-			border: 2px solid green;
+			
 			
 		}
 
@@ -707,7 +715,7 @@ footer{
 
 			body{	
 				width: 100vw;
-				background-size: cover;
+				height: 120vh;
 			
 			}
 			
@@ -824,6 +832,7 @@ footer{
 
 			.agenda{
 				width: 100vw;
+				margin-top: 400px;
 			}
 
 			.agenda .itens-agenda{
