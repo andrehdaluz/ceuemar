@@ -20,6 +20,7 @@ html {
 	font-family: 'Lato', sans-serif;
 	scroll-behavior: smooth;
 	overflow-x: hidden;
+	background-color: rgb(138, 137, 135);
 }
 
 body {
@@ -450,7 +451,7 @@ footer{
 /* ------------------------------------------------------------------------------ */
 
 
-@media screen and (min-width:700px) and (max-width:1200px){
+@media screen and (min-width:699px) and (max-width:1200px){
 	
 	/*html{
 	background-size: contain;
@@ -466,8 +467,11 @@ footer{
 	}
 	
 	.content{
-		
-		width: 100vw;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 0px 90px;
+	
 
 	}
 
@@ -488,17 +492,95 @@ footer{
 	.main-content{
 		margin-top: 0px;
 		height: 50vh;
-		/*gap: 20px;*/
+		gap: 20px;
 		
 
 
 	}
 
+	/*Atualização Menu - Início*/
+
+	.content .list-itens{
+
+		display: none;
+	
+	
+	}
+
+	/*.one,
+	.two,
+	.three {
+
+		width: 80%;
+		height: 2px;
+		background-color: white;
+		margin: 6px auto;
+		transition: 0.5s;
+		margin-top: 10px;
+	
+	}
+
+	.menu-toggle{
+		width: 30px;
+		height: 30px;
+
+	}
+
+
+	.content.on { 
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(30, 31, 30, 0.8);
+		z-index: 10;
+		display: flex;
+		justify-self: center;
+		align-items: center;
+	}
+
+	.content.on .logo{
+		display: none;
+	}
+
+	.content.on .menu-toggle{
+	/	position: absolute;
+		right: 40px;
+		top: 20px;
+
+	}
+
+	.content.on .list-itens{
+		display: block;
+
+	}
+
+	.content.on .list-itens li{
+		display: flex;
+		align-items: center;
+
+	}
+
+	.content.on .list-itens li a {
+		display: block;
+		font-size: 2rem;
+
+	}*/
+
+
+
+
+
+
+	/*Atualização Menu - Fim*/
+
 	.primary-text{
 		width: 60vw;
-		
 		font-size: 3rem;
-		border: 1px solid red;
+
+
 		
 
 	}
@@ -511,24 +593,41 @@ footer{
 		justify-content: center;
 
 	}
-	
 
+	.main{
+		width: 90vw;
+		display: flex;
+		flex-direction: column;
+		margin-right: 20px ;
 	
 	}
 
-	@media screen and (min-width:600px) and (max-width:700px){
+	/*Atualização Menu - Início*/
+
+	.content .list-itens{
+
+		display: none;
+	
+	
+	}
+
+}
+
+	@media screen and (min-width:602px) and (max-width:699px){
 
 		body{	
 			width: 100vw;
 			background-size: cover;
-		
+			
 		}
 		
 		.content{
-			
 			width: 100vw;
 	
 		}
+
+
+		
 	
 		.menu-content{
 			font-size: 2rem;
@@ -547,17 +646,27 @@ footer{
 		.main-content{
 			margin-top: 0px;
 			height: 50vh;
-			/*gap: 20px;*/
+		
 			
 	
 	
 		}
+
+		
+		.content .list-itens{
+
+			display: none;
+		
+		
+		}
+
+	
 	
 		.primary-text{
 			width: 60vw;
 			
 			font-size: 3rem;
-			border: 1px solid red;
+			
 			
 	
 		}
@@ -570,13 +679,49 @@ footer{
 			justify-content: center;
 	
 		}
-		
-	
+
+		.main{
+			padding-top: 400px;
+			width: 90vw;
+			display: flex;
+			flex-direction: column;
 		
 		}
 
+		.sobre-nos{
+			width: 100vw;
+			height: 150px;
+		}
 
-		@media screen and (min-width:500px) and (max-width:600px){
+		.sobre-nos h2{
+			font-size: 4rem;
+			margin-bottom: 0px;
+			
+		}
+
+		.sobre-nos p{
+			width: 85vw;	
+			font-size: 1.5rem;
+			margin-right: 20px;
+		
+		}
+
+		.sobre-nos img{
+			width: 80vw;
+			height: 100vh;
+			width: 350px;
+			height: 350px;
+			margin-left:80px;
+		
+		}
+
+	
+
+		
+	}
+
+
+		@media screen and (min-width:502px) and (max-width:601px){
 
 			body{	
 				width: 100vw;
@@ -607,19 +752,24 @@ footer{
 			.main-content{
 				margin-top: 0px;
 				height: 50vh;
-				/*gap: 20px;*/
-				
-		
-		
+			
 			}
+
+			
+
+			.content .list-itens{
+
+				display: none;
+			
+			}
+
+	
 		
 			.primary-text{
 				width: 60vw;
 				
 				font-size: 2rem;
-				border: 1px solid red;
-				
-		
+			
 			}
 		
 			.second-text{
@@ -630,12 +780,299 @@ footer{
 				justify-content: center;
 		
 			}
+
+			.conteudo-principal{
+				height: 100px;
+				margin-bottom: 0px;
+			}
+
+			.main{
+				width: 90vw;
+				height: 10vh;
+				display: flex;
+				flex-direction: column;
+				margin-right: 70px;
+				padding-left: 20px;
+				
+				
+			}
+
+			/*.contentsobre{
+				width: 80vw;
+				height: 40vh;
+				display: flex;
+				align-items: center;
+				justify-content: center;		
+				
+			}*/
 			
-		
+			.sobre-nos{
+				width: 100vw;
+				height: 150px;
+			}
+
+			.sobre-nos h2{
+				font-size: 4rem;
+				margin-bottom: 0px;
+				
+			}
+
+			.sobre-nos p{
+				width: 85vw;	
+				font-size: 1.5rem;
+				margin-right: 20px;
 			
 			}
 
-			@media screen and (min-width:350px) and (max-width:500px){
+			.sobre-nos img{
+				width: 80vw;
+				height: 100vh;
+				width: 250px;
+				height: 250px;
+
+			}
+			
+			
+		
+			
+		}
+
+		@media screen and (min-width:400px) and (max-width:450px){
+
+			body{	
+				width: 100vw;
+				background-size: cover;
+			
+			}
+			
+			.content{
+				
+				width: 100vw;
+		
+			}
+		
+			.menu-content{
+				font-size: 1.1rem;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+		
+			header{
+				width: 100%;
+				gap: 2px;
+			
+			}
+		
+		
+			.main-content{
+				margin-top: 0px;
+				height: 50vh;
+				/*gap: 20px;*/
+				
+				
+		
+		
+			}
+
+			/*Atualização Menu - Início*/
+
+			.content .list-itens{
+
+				display: none;
+			
+			
+			}
+
+
+		
+			.primary-text{
+				width: 60vw;
+				font-size: 1.8rem;
+				
+				
+		
+			}
+		
+			.second-text{
+				width: 80vw;
+				font-size: 1rem;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+		
+			}
+
+			.btns{
+				width: 90%;
+				
+			}
+
+			.conteudo-principal{
+				height: 100px;
+				margin-bottom: 0px;
+			}
+
+			.main{
+				width: 90vw;
+				height: 10vh;
+				display: flex;
+				flex-direction: column;
+				margin-right: 70px;
+				padding-left: 20px;
+				
+				
+			}
+
+			.sobre-nos{
+				width: 100vw;
+				height: 150px;
+			}
+			
+			.sobre-nos h2{
+				font-size: 4rem;
+				margin-bottom: 0px;
+				
+			}
+
+			.sobre-nos p{
+				width: 85vw;	
+				font-size: 1.5rem;
+				margin-right: 20px;
+			
+			}
+
+			.sobre-nos img{
+				width: 70vw;
+				height: 100vh;
+				width: 150px;
+				height: 150px;
+				margin-left: 120px;
+				
+
+			}
+		
+		}
+
+		@media screen and (min-width:451px) and (max-width:502px){
+		
+			body{	
+				width: 100vw;
+				background-size: cover;
+			
+			}
+			
+			.content{
+				
+				width: 100vw;
+		
+			}
+		
+			.menu-content{
+				font-size: 1.1rem;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+		
+			header{
+				width: 100%;
+				gap: 2px;
+			
+			}
+		
+		
+			.main-content{
+				margin-top: 0px;
+				height: 50vh;
+				/*gap: 20px;*/
+				
+				
+		
+		
+			}
+
+			/*Atualização Menu - Início*/
+
+			.content .list-itens{
+
+				display: none;
+			
+			
+			}
+
+
+		
+			.primary-text{
+				width: 60vw;
+				font-size: 1.8rem;
+				
+				
+		
+			}
+		
+			.second-text{
+				width: 80vw;
+				font-size: 1rem;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+		
+			}
+
+			.btns{
+				width: 90%;
+				
+			}
+
+			.conteudo-principal{
+				height: 100px;
+				margin-bottom: 0px;
+			}
+
+			.main{
+				width: 90vw;
+				height: 10vh;
+				display: flex;
+				flex-direction: column;
+				margin-right: 70px;
+				padding-left: 20px;
+				
+				
+			}
+
+			.sobre-nos{
+				width: 100vw;
+				height: 150px;
+			}
+			
+			.sobre-nos h2{
+				font-size: 4rem;
+				margin-bottom: 0px;
+				
+			}
+
+			.sobre-nos p{
+				width: 85vw;	
+				font-size: 1.5rem;
+				margin-right: 20px;
+			
+			}
+
+			.sobre-nos img{
+				width: 70vw;
+				height: 100vh;
+				width: 100px;
+				height: 100px;
+				margin-left: 120px;
+				
+
+			}
+		
+		}
+		
+
+			@media screen and (min-width:330px) and (max-width:400px){
 
 				body{	
 					width: 100vw;
@@ -672,6 +1109,17 @@ footer{
 			
 			
 				}
+
+				/*Atualização Menu - Início*/
+
+				.content .list-itens{
+
+					display: none;
+				
+				
+				}
+
+	
 			
 				.primary-text{
 					width: 60vw;
@@ -694,7 +1142,169 @@ footer{
 					width: 90%;
 					
 				}
+
+				.conteudo-principal{
+					height: 100px;
+					margin-bottom: 0px;
+				}
+
+				.main{
+					width: 90vw;
+					height: 10vh;
+					display: flex;
+					flex-direction: column;
+					margin-right: 70px;
+					padding-left: 20px;
+					
+					
+				}
+
+				.sobre-nos{
+					width: 100vw;
+					height: 150px;
+				}
 				
-			
+				.sobre-nos h2{
+					font-size: 4rem;
+					margin-bottom: 0px;
+					
+				}
+	
+				.sobre-nos p{
+					width: 85vw;	
+					font-size: 1.5rem;
+					margin-right: 20px;
 				
 				}
+	
+				.sobre-nos img{
+					width: 70vw;
+					height: 100vh;
+					width: 150px;
+					height: 150px;
+					margin-left:75px;
+					border: 2px solid white;
+	
+				}
+			
+			}
+
+			@media screen and (min-width:230px) and (max-width:329px){
+
+				body{	
+					width: 100vw;
+					background-size: cover;
+				
+				}
+				
+				.content{
+					
+					width: 100vw;
+			
+				}
+			
+				.menu-content{
+					font-size: 1.1rem;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+				}
+			
+				header{
+					width: 100%;
+					gap: 2px;
+				
+				}
+			
+			
+				.main-content{
+					margin-top: 0px;
+					height: 50vh;
+					/*gap: 20px;*/
+					
+					
+			
+			
+				}
+
+				/*Atualização Menu - Início*/
+
+				.content .list-itens{
+
+					display: none;
+				
+				
+				}
+
+	
+			
+				.primary-text{
+					width: 60vw;
+					font-size: 1.8rem;
+					
+					
+			
+				}
+			
+				.second-text{
+					width: 80vw;
+					font-size: 1rem;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+			
+				}
+
+				.btns{
+					width: 90%;
+					
+				}
+
+				.conteudo-principal{
+					height: 100px;
+					margin-bottom: 0px;
+				}
+
+				.main{
+					width: 90vw;
+					height: 10vh;
+					display: flex;
+					flex-direction: column;
+					margin-right: 70px;
+					padding-left: 20px;
+					
+					
+				}
+
+				.sobre-nos{
+					width: 100vw;
+					height: 150px;
+				}
+				
+				.sobre-nos h2{
+					font-size: 4rem;
+					margin-bottom: 0px;
+					
+				}
+	
+				.sobre-nos p{
+					width: 85vw;	
+					font-size: 1.5rem;
+					margin-right: 20px;
+				
+				}
+	
+				.sobre-nos img{
+					width: 70vw;
+					height: 100vh;
+					width: 150px;
+					height: 150px;
+					margin-left:30px;
+					border: 2px solid white;
+	
+				}
+			
+			}
+		
+	
+		
