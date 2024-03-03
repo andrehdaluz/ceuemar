@@ -904,11 +904,9 @@ footer{
 
 		
 			.primary-text{
-				width: 60vw;
-				font-size: 3.5rem;
+				width: 100vw;
+				font-size: 6rem;
 				
-				
-		
 			}
 		
 			.second-text{
@@ -928,8 +926,8 @@ footer{
 			}
 
 			.conteudo-principal{
-				height: 100vh;
-				margin-top:50px;
+				height: 80vh;
+				margin-top:0px;
 				border: 2px solid greenyellow;
 			}
 
