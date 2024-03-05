@@ -55,6 +55,7 @@ header {
 	align-items: center;
 	font-size: 2.5rem;
 	
+	
 }
 
 .logo{
@@ -62,20 +63,8 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
-}
-
-.logo {
-	font-size: 1.8rem;
-	letter-spacing: 0.4rem;
 	cursor: pointer;
-}
 
-.logo:hover{
-	cursor: pointer;
-	color: #f49e12;
-	font-weight: bold;
-	transition: 0.5s;
 }
 
 .menu-content .list-itens {
@@ -111,10 +100,11 @@ header {
 /* Centro - Conteudo Principal */
 .conteudo-principal {/*mudança de class para section linha 46 sobre nós*/
 	height: 50vh;
-	margin-top: 400px;
+	margin-top: 200px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border: 2px solid red;
 }
 
 .main-content {
@@ -129,11 +119,12 @@ header {
 
 .primary-text {
     width: 100vw;
-	height: 20vh;
-	margin-top: 100px;
+	height: 15vh;
+	margin-top:0px;
     font-size: 18rem;
     text-align: center;
     animation: changeColor 2s infinite alternate;
+	
 	
 }
 
@@ -466,13 +457,14 @@ footer{
 
 	.body{
 		width: 100vw;
-		height: 140vh;
-		border: 2px solid red;
+		height: 100vh;
+		
 	}
 
 
 	.primary-text{
 		font-size: 10rem;
+	
 	}
 
 
@@ -490,7 +482,7 @@ footer{
 	
 	body{	
 		width: 100vw;
-		height: 140vh;
+		height: 100vh;
 	
 	}
 	
@@ -504,6 +496,12 @@ footer{
 	.content .list-itens{
 		display: flex;
 		
+	}
+
+	.conteudo-principal{
+		margin: 0px;
+		padding: 0px;
+	
 	}
 
 	.menu-content{
@@ -539,12 +537,11 @@ footer{
 
 
 	.primary-text{
-		width: 60vw;
+		margin-top: 900px;
+		width: 100vw;
 		font-size: 6rem;
-
-
 		
-
+		
 	}
 
 	.second-text{
@@ -603,12 +600,13 @@ footer{
 	}
 
 	.agenda{
-		padding-top: 0px;
+		margin-top: 65px;
 		
 	}
 
 	.agenda .itens-agenda{
 		width: 70vw;
+		margin-left: 80px;
 	
 		
 	}
@@ -619,15 +617,15 @@ footer{
 
 		body{	
 			width: 100vw;
-			height: 140vh;
+			height: 100vh;
 			
 			
 		}
 		
 		.conteudo-principal{
-			height: 40vh;
-			width: 100vw;
-			border: 2px solid rgb(85, 11, 234);
+			margin: 0px;
+			padding: 0px;
+		
 			
 			
 		}
@@ -666,8 +664,8 @@ footer{
 	
 		.primary-text{
 			width: 100vw;
-			margin-top: 400px;
-			font-size: 8rem;
+			margin-top: 900px;
+			font-size: 7rem;
 			
 			
 	
@@ -695,13 +693,15 @@ footer{
 
 		.agenda{
 			width: 100vw;
-			margin-top: 280px;
+			margin-top: 140px;
 			
 			
 		}
 
 		.agenda .itens-agenda{
 			width: 70vw;
+			margin-left: 90px;
+			
 			
 			
 		}
@@ -712,16 +712,15 @@ footer{
 	}
 
 
-		@media screen and (min-width:450px) and (max-width:601px){
+		@media screen and (min-width:451px) and (max-width:602px){
 
 			body{	
 				width: 100vw;
-				height: 120vh;
+				height: 100vh;
 			
 			}
 			
 			.content{
-				
 				width: 100vw;
 		
 			}
@@ -766,8 +765,9 @@ footer{
 		
 			.primary-text{
 				width: 60vw;
-				
-				font-size: 4rem;
+				font-size: 5rem;
+				margin-top: 450px;
+			
 			
 			}
 		
@@ -781,8 +781,8 @@ footer{
 			}
 
 			.conteudo-principal{
-				height: 100px;
-				border: 2px solid rgb(255, 242, 1);
+				height: 10px;
+				
 			}
 
 			.main{
@@ -833,12 +833,12 @@ footer{
 
 			.agenda{
 				width: 100vw;
-				margin-top: 400px;
+				margin-top: 10px;
 			}
 
 			.agenda .itens-agenda{
 				width: 70vw;
-				margin: 20px;
+				margin: 0px;
 			}
 			
 			
@@ -850,12 +850,11 @@ footer{
 
 			body{	
 				width: 100vw;
-				background-size: cover;
+				height: 100vh;
 			
 			}
 			
-			.content{
-				
+			.content{	
 				width: 100vw;
 		
 			}
@@ -872,6 +871,12 @@ footer{
 				height: 0vw;
 				
 	
+			}
+
+			.conteudo-principal{
+				padding: 0px;
+				margin: 0px;
+				
 			}
 	
 			.logo{
@@ -905,7 +910,10 @@ footer{
 		
 			.primary-text{
 				width: 100vw;
-				font-size: 6rem;
+				font-size: 5rem;
+				margin-top: 900px;
+			
+				
 				
 			}
 		
@@ -918,18 +926,8 @@ footer{
 		
 			}
 
-			.btns{
-				width: 90%;
-				height: 100vh;
-				margin-top: 150px;
-				
-			}
-
-			.conteudo-principal{
-				height: 80vh;
-				margin-top:0px;
-				border: 2px solid greenyellow;
-			}
+			
+			
 
 			.main{
 				width: 90vw;
@@ -970,6 +968,7 @@ footer{
 
 			.agenda{
 				width: 100vw;
+				margin-top: 140px;
 			}
 
 			.agenda .itens-agenda{
@@ -979,11 +978,11 @@ footer{
 		
 		}
 
-		@media screen and (min-width:451px) and (max-width:502px){
+		/*@media screen and (min-width:451px) and (max-width:502px){
 		
 			body{	
 				width: 100vw;
-				background-size: cover;
+				height: 100vh;
 			
 			}
 			
@@ -1018,14 +1017,14 @@ footer{
 			.main-content{
 				margin-top: 0px;
 				height: 50vh;
-				/*gap: 20px;*/
+				/*gap: 20px;
 				
 				
 		
 		
 			}
 
-			/*Atualização Menu - Início*/
+			/*Atualização Menu - Início
 
 			.content .list-itens{
 
@@ -1059,8 +1058,9 @@ footer{
 			}
 
 			.conteudo-principal{
-				height: 100px;
-				margin-bottom: 0px;
+				margin: 0px;
+				padding: 0px;
+				border: 2px solid red;
 			}
 
 			.main{
@@ -1111,14 +1111,14 @@ footer{
 				margin: 20px;
 			}
 		
-		}
+		}*/
 		
 
 			@media screen and (min-width:300px) and (max-width:400px){
 
 				body{	
 					width: 100vw;
-					background-size: cover;
+					height: 100vh;
 				
 				}
 				
@@ -1174,7 +1174,7 @@ footer{
 				.primary-text{
 					width: 60vw;
 					font-size: 3rem;
-					
+					margin-top: 900px;
 					
 			
 				}
@@ -1194,8 +1194,10 @@ footer{
 				}
 
 				.conteudo-principal{
-					height: 100px;
-					margin-bottom: 0px;
+					margin: 0px;
+					padding: 0px;
+					margin-bottom: 140px;
+					
 				}
 
 				.main{
@@ -1237,7 +1239,8 @@ footer{
 				}
 
 				.agenda{
-					width: 100vw;
+					
+					margin-top: 0px;
 				}
 	
 				.agenda .itens-agenda{
