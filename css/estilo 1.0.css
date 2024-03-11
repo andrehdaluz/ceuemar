@@ -164,51 +164,18 @@ header {
 }
 
 /* Botões */
-.btns {
-	margin-top: 100px;
-	margin-bottom: 300px;
-	display: flex;
-	flex-direction: flex; /* Altera a direção dos botões para coluna */
-	align-items: center; /* Centraliza os botões */
-	gap: 20px;
+.btn-detalhes {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    text-decoration: none; /* Remover sublinhado padrão de links */
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-color 0.3s; /* Efeito de transição suave ao passar o mouse */
 }
 
-.btns button {
-	width: 100%; /* Define a largura dos botões como 100% */
-	height: 120px;
-	cursor: pointer;
-	border: 2px solid white;
-	color: white;
-	text-transform: uppercase;
-	background-color: transparent;
-	font-weight: bold;
-	letter-spacing: 0.2rem;
-	border-radius: 20px;
-	position: relative;
-	transition: 1.5s;
-
-}
-
-.btns button:hover {
-	color: rgb(32, 178, 170);
-	border: none;
-}
-
-.btns button:before {
-	content: ' ';
-	border-radius: 20px;
-	bottom: 0;
-	left: 0;
-	position: absolute;
-	width: 0;
-	height: 60px;
-	background-color: rgb(61, 61, 61);
-	z-index: -1;
-	transition: width 1s;
-}
-
-.btns button:hover:before {
-	width: 100%;
+.btn-detalhes:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
 }
 
 
@@ -341,7 +308,7 @@ header {
 }
 
 .itens-agenda .info h4{
-	font-size: 2.5rem;
+	font-size: 2.3rem;
 	text-transform: uppercase;
 	margin-bottom: 1.3rem;
 	justify-content: center;
@@ -366,18 +333,8 @@ header {
 }
 
 .itens-agenda .info h6{
-	font-size: 1.2rem;
-	text-transform: uppercase;
-	margin-bottom: 1.6rem;
-	justify-content: center;
-	align-items: center;
-	text-align: justify;
-	
-}
-
-.itens-agenda .info p{
-	color: #f6d346;
-	font-size: 1rem;
+	background-color: #ff9e02;
+	font-size: 1.8rem;
 	text-transform: uppercase;
 	margin-bottom: 1.6rem;
 	justify-content: center;
@@ -390,6 +347,8 @@ header {
 	width: 100%;
 	height: 350px;
 }
+
+
 
 
 /* Contatos */
@@ -1171,13 +1130,14 @@ footer{
 			.main-content{
 				margin-top: 0px;
 				height: 50vh;
-				/*gap: 20px;
+				/*gap: 20px;*/
 				
 				
 		
 		
 			}
 
+		}
 			/*Atualização Menu - Início
 
 			.content .list-itens{
