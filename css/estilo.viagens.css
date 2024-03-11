@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap'); /* Importa a fonte Lato */
+
+/* Zerando CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+/* Fundo de Tela */
+html {
+	width: 100vw;
+	height: 100vh;
+	font-size: 62.5%; /* Define o tamanho da fonte */
+	color: white;
+	font-family: 'Lato', sans-serif;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	background-color: #1f1e1f;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+.logo{
+	margin: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+
+}
+
+.viagens img{
+    width: 80%;
+	height: 950px;
+    margin-left: 150px;
+   
+}
+
+.viagens h4{
+    margin-top: 20px;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.viagens h5{
+    margin-top: 40px;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-left: 75px;
+    text-align: justify;
+}
+
+.viagens p{
+    width: 90vw;
+    margin-left: 75px;
+    font-size: 2rem;
+    background-color: blue;
+}
+
+.viagens h6{
+
+    font-size: 5rem;
+    background-color: rgb(255, 153, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-detalhes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8rem;
+    border-radius: 20px;
+}
+		
+		
+@media screen and (min-width:1300px) and (max-width:1501px){
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+}
+
+html{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+   
+}
+
+.viagens img{
+    width: 80vw;
+}
+
+.viagens h5{
+    width: 90vw;
+}
+
+
+.viagens h6{
+   
+   font-size: 4rem;
+  
+ 
+}
+
+
+
+
+
+}
+
+@media screen and (min-width:1000px) and (max-width:1201px){
+
+    body{
+ 
+        padding: 0px;
+        width: 100vw;
+       
+    }
+    
+    html{
+        margin: 0px;
+        padding: 0px;
+        width: 100vw;
+        padding-right: 40px;
+    }
+    
+    
+    .viagens img{
+        width: 70vw;
+        height: 50vh;
+    }
+    .viagens h5{
+        width: 85vw;
+        font-size: 2rem;
+    }
+    
+    .viagens p{
+        width: 85vw;
+        font-size: 1.5rem;
+    }
+    
+    .viagens h6{
+       width: 100vw;
+       font-size: 3rem;
+      
+     
+    }
+    
+    
+    
+    
+    
+    }
+
+    
+@media screen and (min-width:800px) and (max-width:1001px){
+
+    body{
+ 
+        padding: 0px;
+        width: 100vw;
+       
+    }
+    
+    html{
+        margin: 0px;
+        padding: 0px;
+        width: 100vw;
+        padding-right: 40px;
+    }
+    
+    
+    .viagens img{
+        width: 70vw;
+        height: 50vh;
+    }
+    .viagens h5{
+        width: 85vw;
+        font-size: 2rem;
+    }
+    
+    .viagens p{
+        width: 85vw;
+        font-size: 1.5rem;
+    }
+    
+    .viagens h6{
+       width: 100vw;
+       font-size: 3rem;
+      
+     
+    }
+    
+    
+    
+    
+    
+    }
+
+    @media screen and (min-width:600px) and (max-width:801px){
+
+        body{
+     
+            padding: 0px;
+            width: 100vw;
+           
+        }
+        
+        html{
+            margin: 0px;
+            padding: 0px;
+            width: 100vw;
+            padding-right: 40px;
+        }
+        
+        
+        .viagens img{
+            width: 50vw;
+            height: 40vh;
+        }
+
+        .viagens h4{
+
+            font-size: 3rem;
+
+        }
+
+
+        .viagens h5{
+            width: 75vw;
+            font-size: 2rem;
+        }
+        
+        .viagens p{
+            width: 75vw;
+            font-size: 1.5rem;
+        }
+        
+        .viagens h6{
+           width: 100vw;
+           font-size: 3rem;
+          
+         
+        }
+        
+        
+        
+        
+        
+        }
+
+
+        @media screen and (min-width:350px) and (max-width:601px){
+
+            body{
+         
+                padding: 0px;
+                width: 100vw;
+               
+            }
+            
+            html{
+                margin: 0px;
+                padding: 0px;
+                width: 100vw;
+              
+            }
+            
+            
+            .viagens img{
+                width: 60vw;
+                height: 40vh;
+                margin-left: 80px;
+            }
+    
+            .viagens h4{
+    
+                font-size: 2rem;
+    
+            }
+    
+    
+            .viagens h5{
+                width: 65vw;
+                font-size: 1.6rem;
+            }
+            
+            .viagens p{
+                width: 65vw;
+                font-size: 1.3rem;
+            }
+            
+            .viagens h6{
+               width: 100vw;
+               font-size: 3rem;
+              
+             
+            }
+            
+            
+            
+            
+            
+            }
