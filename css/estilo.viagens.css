@@ -40,6 +40,21 @@ body {
 
 }
 
+.agenda h3{
+    font-size: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FD9A14;
+    
+}
+
+.viagens{
+   
+    background-color: rgb(0, 0, 0);
+    
+}
+
 .viagens img{
     width: 80%;
 	height: 950px;
@@ -53,6 +68,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+  
    
 }
 
@@ -71,7 +87,8 @@ body {
     width: 90vw;
     margin-left: 75px;
     font-size: 2rem;
-    background-color: blue;
+    text-align: justify;
+    background-color:#0D3C6D;
 }
 
 .viagens h6{
