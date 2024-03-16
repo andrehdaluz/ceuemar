@@ -16,11 +16,11 @@ html {
 	width: 100vw;
 	height: 100vh;
 	font-size: 62.5%; /* Define o tamanho da fonte */
-	color: white;
+	color: rgb(0, 0, 0);
 	font-family: 'Lato', sans-serif;
 	scroll-behavior: smooth;
 	overflow-x: hidden;
-	background-color: #1f1e1f;
+	background-color: #433f3f;
 
 }
 
@@ -51,7 +51,7 @@ body {
 
 .viagens{
    
-      background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     
 }
 
