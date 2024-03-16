@@ -20,13 +20,17 @@ html {
 	font-family: 'Lato', sans-serif;
 	scroll-behavior: smooth;
 	overflow-x: hidden;
-	background-color: rgba(14, 144, 173, 0.5);
+	/*background-image: url(./img/img2.png);
+    background-size: cover;*/
 
 }
+
+
 
 body {
     width: 100vw;
     height: 100vh;
+   
 
 }
 
@@ -46,6 +50,7 @@ body {
     align-items: center;
     justify-content: center;
     color: #FD9A14;
+   
     
 }
 
@@ -84,8 +89,8 @@ body {
 }
 
 .viagens p{
-    width: 97vw;/*mudança 90 para 97vw*/
-    margin-left: 20px;/*75px para 20px*/
+    width: 90vw;/*mudança 90 para 97vw*/
+    margin-left: 75px;/*75px para 20px*/
     font-size: 2rem;
     text-align: justify;
     /*background-color:#0D3C6D;*/
@@ -107,6 +112,36 @@ body {
     justify-content: center;
     font-size: 8rem;
     border-radius: 20px;
+}
+
+/* Botões */
+.btns {	
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: flex; /* Altera a direção dos botões para coluna */
+    align-items: center; /* Centraliza os botões */
+    gap: 20px;
+}
+
+.btn-exp {
+    width: 300px; /* Define a largura dos botões como 100% */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 4px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.4rem;
+    border-radius: 20px;
+    position: relative;
+    transition: 1.5s;
+    font-size: 5rem;
+
 }
 		
 		
