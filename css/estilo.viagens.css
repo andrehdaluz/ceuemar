@@ -20,7 +20,7 @@ html {
 	font-family: 'Lato', sans-serif;
 	scroll-behavior: smooth;
 	overflow-x: hidden;
-	background-color: #433f3f;
+	background-color: rgba(14, 144, 173, 0.5);
 
 }
 
@@ -84,11 +84,12 @@ body {
 }
 
 .viagens p{
-    width: 90vw;
-    margin-left: 75px;
+    width: 97vw;/*mudança 90 para 97vw*/
+    margin-left: 20px;/*75px para 20px*/
     font-size: 2rem;
     text-align: justify;
-    background-color:#0D3C6D;
+    /*background-color:#0D3C6D;*/
+    
 }
 
 .viagens h6{
