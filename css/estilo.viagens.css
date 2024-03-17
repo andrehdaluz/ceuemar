@@ -22,7 +22,7 @@ html {
 	overflow-x: hidden;
 	/*background-image: url(./img/img2.png);
     background-size: cover;*/
-
+    background-color: #f5f5dc;
 }
 
 
@@ -45,7 +45,7 @@ body {
 }
 
 .agenda h3{
-    font-size: 6rem;
+    font-size: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,15 +56,16 @@ body {
 
 .viagens{
    
-    background-color: rgb(255, 255, 255);
+    background-color: #f5f5dc;
     
 }
 
 .viagens img{
-    width: 80%;
-	height: 950px;
+    width: 85vw;
+	height:100%;
     margin-left: 150px;
-   
+    opacity: 0.8;
+  
 }
 
 .viagens h4{
@@ -99,11 +100,56 @@ body {
 
 .viagens h6{
 
-    font-size: 5rem;
+    font-size: 3.5rem;
     background-color: rgb(255, 153, 0);
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.abril{
+    background-color: rgba(17, 105, 221, 0.8);
+
+}
+
+.maio{
+    background-color: rgb(247, 235, 73);
+
+}
+
+.junho{
+    background-color: rgb(241, 86, 86);
+
+}
+
+.julho{
+    background-color: rgb(238, 223, 21);
+
+}
+
+.agosto{
+    background-color: rgb(162, 129, 238);
+
+}
+
+.setembro{
+    background-color: rgb(255, 238, 0);
+
+}
+
+.outubro{
+    background-color: rgb(220, 34, 226);
+
+}
+
+.novembro{
+    background-color: rgb(20, 48, 206);
+
+}
+
+.dezembro{
+    background-color: rgb(240, 180, 17);
+
 }
 
 .btn-detalhes{
@@ -162,6 +208,7 @@ html{
 
 .viagens img{
     width: 80vw;
+    height: 80vh;
 }
 
 .viagens h5{
@@ -171,7 +218,7 @@ html{
 
 .viagens h6{
    
-   font-size: 4rem;
+   font-size: 3rem;
   
  
 }
@@ -182,7 +229,7 @@ html{
 
 }
 
-@media screen and (min-width:1000px) and (max-width:1201px){
+@media screen and (min-width:1000px) and (max-width:1301px){
 
     body{
  
@@ -200,8 +247,9 @@ html{
     
     
     .viagens img{
-        width: 70vw;
-        height: 50vh;
+        width: 75vw;
+        height: 60vh;
+      
     }
     .viagens h5{
         width: 85vw;
@@ -215,7 +263,7 @@ html{
     
     .viagens h6{
        width: 100vw;
-       font-size: 3rem;
+       font-size: 2.8rem;
       
      
     }
@@ -247,7 +295,14 @@ html{
     .viagens img{
         width: 70vw;
         height: 50vh;
+
     }
+
+    .viagens h4{
+        font-size: 4rem;
+    }
+
+
     .viagens h5{
         width: 85vw;
         font-size: 2rem;
@@ -260,7 +315,7 @@ html{
     
     .viagens h6{
        width: 100vw;
-       font-size: 3rem;
+       font-size: 2.6rem;
       
      
     }
@@ -284,13 +339,17 @@ html{
             margin: 0px;
             padding: 0px;
             width: 100vw;
-            padding-right: 40px;
+            padding-right: 0px;
+            
+      
         }
         
         
         .viagens img{
-            width: 50vw;
-            height: 40vh;
+            width: 70vw;
+            height: 45vh;
+            margin-left:100px;
+            
         }
 
         .viagens h4{
@@ -312,7 +371,7 @@ html{
         
         .viagens h6{
            width: 100vw;
-           font-size: 3rem;
+           font-size: 2.4rem;
           
          
         }
@@ -323,8 +382,7 @@ html{
         
         }
 
-
-        @media screen and (min-width:350px) and (max-width:601px){
+        @media screen and (min-width:551px) and (max-width:599px){
 
             body{
          
@@ -344,7 +402,7 @@ html{
             .viagens img{
                 width: 60vw;
                 height: 40vh;
-                margin-left: 80px;
+                margin-left: 120px;
             }
     
             .viagens h4{
@@ -366,7 +424,60 @@ html{
             
             .viagens h6{
                width: 100vw;
-               font-size: 3rem;
+               font-size: 2.4rem;
+              
+             
+            }
+
+        }
+
+        @media screen and (min-width:460px) and (max-width:550px){
+
+            body{
+         
+                padding: 0px;
+                width: 100vw;
+               
+            }
+            
+            html{
+                margin: 0px;
+                padding: 0px;
+                width: 100vw;
+              
+            }
+            
+            
+            .viagens img{
+                width: 60vw;
+                height: 30vh;
+                margin-left: 100px;
+            }
+
+            .agenda h3{
+                font-size: 3rem;
+            }
+    
+            .viagens h4{
+    
+                font-size: 2rem;
+    
+            }
+    
+    
+            .viagens h5{
+                width: 65vw;
+                font-size: 1.6rem;
+            }
+            
+            .viagens p{
+                width: 65vw;
+                font-size: 1.3rem;
+            }
+            
+            .viagens h6{
+               width: 100vw;
+               font-size: 2rem;
               
              
             }
@@ -376,3 +487,55 @@ html{
             
             
             }
+
+            @media screen and (min-width:200px) and (max-width:451px){
+
+                body{
+             
+                    
+                    width: 90vw;
+                   
+                }
+                
+                html{
+                    margin: 0px;
+                    padding: 0px;
+                    width: 100vw;
+                  
+                }
+                
+                
+                .viagens img{
+                    width: 60vw;
+                    height: 25vh;
+                    margin-left: 75px;
+                }
+        
+                .agenda h3{
+                    font-size: 2rem;
+                }
+                
+                
+                .agenda h4{
+        
+                    font-size: 1.2rem;
+        
+                }
+        
+        
+                .agenda h5{
+                    width: 65vw;
+                    font-size: 1.6rem;
+                }
+                
+                .agenda p{
+                    width: 65vw;
+                    font-size: 1.3rem;
+                }
+                
+                .agenda h6{
+                   width: 100vw;
+                   font-size: 1.2rem;
+                  
+                 
+                }
