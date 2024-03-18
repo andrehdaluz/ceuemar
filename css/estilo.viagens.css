@@ -45,7 +45,7 @@ body {
 }
 
 .agenda h3{
-     width: 100vw;
+    width: 100vw;
     font-size: 4rem;
     display: flex;
     align-items: center;
@@ -62,10 +62,12 @@ body {
 }
 
 .viagens img{
-    width: 85vw;
-	height:100%;
-    margin-left: 150px;
-    opacity: 0.8;
+    width: 100vw;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 50px;
+    border: 4px solid rgb(255, 255, 255);
+  
   
 }
 
@@ -102,64 +104,24 @@ body {
 .viagens h6{
 
     font-size: 3.5rem;
-    background-color: rgb(255, 153, 0);
+    background-color: rgba(4, 0, 255, 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/*.abril{
-    background-color: rgba(17, 105, 221, 0.8);
-
-}
-
-.maio{
-    background-color: rgb(247, 235, 73);
-
-}
-
-.junho{
-    background-color: rgb(241, 86, 86);
-
-}
-
-.julho{
-    background-color: rgb(238, 223, 21);
-
-}
-
-.agosto{
-    background-color: rgb(162, 129, 238);
-
-}
-
-.setembro{
-    background-color: rgb(255, 238, 0);
-
-}
-
-.outubro{
-    background-color: rgb(220, 34, 226);
-
-}
-
-.novembro{
-    background-color: rgb(20, 48, 206);
-
-}
-
-.dezembro{
-    background-color: rgb(240, 180, 17);
-
-}*/
-
-.btn-detalhes{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.abril h3 {
     font-size: 8rem;
-    border-radius: 20px;
+    color: rgba(17, 105, 221, 0.8);
+    text-shadow: -2px -1px 0 #ffffff,  
+                  2px -1px 0 #fff,
+                 -2px  1px 0 #fff,
+                  2px  1px 0 #fff;
 }
+
+
+
+
 
 /* Botões */
 .btns {	
@@ -192,12 +154,12 @@ body {
 }
 		
 		
-@media screen and (min-width:1300px) and (max-width:1501px){
+@media screen and (min-width:1300px) and (max-width:2008px){
 
 body{
     margin: 0px;
     padding: 0px;
-    width: 100vw;
+    width: 90vw;
 }
 
 html{
@@ -207,9 +169,15 @@ html{
    
 }
 
+.logo{
+    margin-left: 160px;
+ 
+}
+
 .viagens img{
     width: 80vw;
-    height: 80vh;
+    height: 180vh;
+    margin-left: 140px;
 }
 
 .viagens h5{
@@ -243,13 +211,14 @@ html{
         margin: 0px;
         padding: 0px;
         width: 100vw;
-        padding-right: 40px;
+        padding-right: 0px;
     }
     
     
     .viagens img{
-        width: 75vw;
-        height: 60vh;
+        width: 90vw;
+        height: 160vh;
+        margin-left: 30px;
       
     }
     .viagens h5{
@@ -294,8 +263,9 @@ html{
     
     
     .viagens img{
-        width: 70vw;
-        height: 50vh;
+        width: 90vw;
+        height: 160vh;
+        margin-left: 40px;
 
     }
 
@@ -344,18 +314,33 @@ html{
             
       
         }
+
+        .logo{
+            margin-left: 60px;
+            
+        }
         
         
         .viagens img{
-            width: 70vw;
-            height: 45vh;
-            margin-left:100px;
+        width: 90vw;
+        height: 120vh;
+        margin-left: 70px;
             
         }
 
-        .viagens h4{
+        .viagens h3{
+            width: 100vw;
+            margin-left: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+        }
 
-            font-size: 3rem;
+        .viagens h4{
+            
+            font-size: 5rem;
+         
 
         }
 
@@ -372,7 +357,7 @@ html{
         
         .viagens h6{
            width: 100vw;
-           font-size: 2.4rem;
+           font-size: 2.5rem;
           
          
         }
@@ -401,17 +386,11 @@ html{
             
             
             .viagens img{
-                width: 60vw;
-                height: 40vh;
-                margin-left: 120px;
-            }
-    
-            .viagens h4{
-    
-                font-size: 2rem;
-    
-            }
-    
+                width: 90vw;
+                height: 120vh;
+                margin-left: 40px;
+
+       
     
             .viagens h5{
                 width: 65vw;
@@ -432,111 +411,93 @@ html{
 
         }
 
-        @media screen and (min-width:460px) and (max-width:550px){
-
-            body{
-         
-                padding: 0px;
+        @media screen and (min-width: 460px) and (max-width: 550px) {
+            body {
+                padding: 0;
                 width: 100vw;
-               
             }
-            
-            html{
-                margin: 0px;
-                padding: 0px;
+        
+            html {
+                margin: 0;
+                padding: 0;
                 width: 100vw;
-              
             }
-            
-            
-            .viagens img{
-                width: 60vw;
-                height: 30vh;
-                margin-left: 100px;
+        
+            .logo {
+                border: 2px solid red;
             }
-
-            .agenda h3{
+        
+            .viagens img {
+                width: 90vw;
+                height: 120vh;
+                margin-left: 60px;
+            }
+        
+            .viagens h3 {
                 font-size: 3rem;
             }
-    
-            .viagens h4{
-    
+        
+            .viagens h4 {
                 font-size: 2rem;
-    
             }
-    
-    
-            .viagens h5{
+        
+            .viagens h5 {
                 width: 65vw;
                 font-size: 1.6rem;
             }
-            
-            .viagens p{
+        
+            .viagens p {
                 width: 65vw;
                 font-size: 1.3rem;
             }
-            
-            .viagens h6{
-               width: 100vw;
-               font-size: 2rem;
-              
-             
+        
+            .viagens h6 {
+                font-size: 2rem;
             }
-            
-            
-            
-            
-            
+        }
+        
+        @media screen and (min-width: 200px) and (max-width: 451px) {
+            body {
+                width: 80vw;
             }
-
-            @media screen and (min-width:200px) and (max-width:451px){
-
-                body{
-             
-                    
-                    width: 90vw;
-                   
-                }
-                
-                html{
-                    margin: 0px;
-                    padding: 0px;
-                    width: 100vw;
-                  
-                }
-                
-                
-                .viagens img{
-                    width: 60vw;
-                    height: 25vh;
-                    margin-left: 75px;
-                }
         
-                .agenda h3{
-                    font-size: 2rem;
-                }
-                
-                
-                .agenda h4{
+            html {
+                margin: 0;
+                padding: 0;
+                width: 100vw;
+            }
         
-                    font-size: 1.2rem;
+            .viagens img {
+                width: 90vw;
+                height: 160vh;
+                margin-left: 0;
+                border: 2px solid red;
+            }
         
-                }
+            .viagens h3 {
+                font-size: 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 2px solid red;
+            }
         
+            .viagens h4 {
+                font-size: 1.2rem;
+            }
         
-                .agenda h5{
-                    width: 65vw;
-                    font-size: 1.6rem;
-                }
-                
-                .agenda p{
-                    width: 65vw;
-                    font-size: 1.3rem;
-                }
-                
-                .agenda h6{
-                   width: 100vw;
-                   font-size: 1.2rem;
-                  
-                 
-                }
+            .viagens h5 {
+                width: 65vw;
+                font-size: 1.6rem;
+            }
+        
+            .viagens p {
+                width: 65vw;
+                font-size: 1.3rem;
+            }
+        
+            .viagens h6 {
+                font-size: 1.2rem;
+            }
+        }
+        
