@@ -102,7 +102,6 @@ body {
     margin-left: 60px;
     font-size: 2rem;
     text-align: justify;
-    border: 4px solid rgb(255, 3, 3);
     /*background-color:#0D3C6D;*/
     
 }
@@ -203,7 +202,11 @@ html{
     margin-left: 80px;
 }
 
-
+.btns .btn-exp{
+    width: 100px;
+    height: 20px;
+    font-size: 1.6rem;
+}
 
 
 
@@ -250,7 +253,11 @@ html{
      
     }
     
-    
+    .btns .btn-exp{
+        width: 100px;
+        height: 20px;
+        font-size: 1.6rem;
+    }
     
     
     
@@ -302,7 +309,12 @@ html{
       
      
     }
-    
+
+    .btns .btn-exp{
+        width: 100px;
+        height: 20px;
+        font-size: 1.6rem;
+    }
     
     
     
@@ -379,6 +391,12 @@ html{
           
          
         }
+
+        .btns .btn-exp{
+            width: 100px;
+            height: 20px;
+            font-size: 1.6rem;
+        }
         
         
         
@@ -435,6 +453,12 @@ html{
              
             }
 
+            .btns .btn-exp{
+                width: 100px;
+                height: 20px;
+                font-size: 1.6rem;
+            }
+
         }
 
         @media screen and (min-width: 460px) and (max-width: 550px) {
@@ -483,6 +507,12 @@ html{
             .viagens h6 {
                 font-size: 2rem;
             }
+
+            .btns .btn-exp{
+                width: 100px;
+                height: 20px;
+                font-size: 1.6rem;
+            }
         }
         
         @media screen and (min-width: 300px) and (max-width: 451px) {
@@ -510,7 +540,7 @@ html{
             .viagens img {
                 width: 75vw;
                 height: 50vh;
-                margin-left: 30px;
+                margin-left: 45px;
                 
             }
         
@@ -520,7 +550,7 @@ html{
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-left: 40px;
+                margin-left: 50px;
                 
             }
         
@@ -531,13 +561,13 @@ html{
             .viagens h5 {
                 width: 65vw;
                 font-size: 1.6rem;
-                margin-left: 45px;
+                margin-left: 60px;
             }
         
             .viagens p {
-                width: 65vw;
+                width: 70vw;
                 font-size: 1.3rem;
-                margin-left: 45px;
+                margin-left: 50px;
             }
         
             .viagens h6 {
@@ -547,6 +577,7 @@ html{
 
             .btns .btn-exp{
                 width: 100px;
+                height: 20px;
                 font-size: 1.6rem;
             }
         }
