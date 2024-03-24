@@ -63,10 +63,12 @@ body {
 
 .viagens img{
     width: 100vw;
+    height: 100vh;
     margin-top: 0px;
     margin-left: 100px;
     margin-right: 50px;
     border: 4px solid rgb(255, 255, 255);
+   
   
   
 }
@@ -83,7 +85,7 @@ body {
 
 .viagens h5{
     margin-top: 40px;
-    width: 90vw;
+    width: 40vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,9 +96,13 @@ body {
 
 .viagens p{
     width: 90vw;/*mudança 90 para 97vw*/
-    margin-left: 75px;/*75px para 20px*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
     font-size: 2rem;
     text-align: justify;
+    border: 4px solid rgb(255, 3, 3);
     /*background-color:#0D3C6D;*/
     
 }
@@ -127,6 +133,7 @@ body {
 .btns {	
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-left: 100px;
     display: flex;
     flex-direction: flex; /* Altera a direção dos botões para coluna */
     align-items: center; /* Centraliza os botões */
@@ -192,6 +199,10 @@ html{
  
 }
 
+.viagens p{
+    margin-left: 80px;
+}
+
 
 
 
@@ -218,7 +229,7 @@ html{
     .viagens img{
         width: 90vw;
         height: 160vh;
-        margin-left: 30px;
+        margin-left: 60px;
       
     }
     .viagens h5{
@@ -228,6 +239,7 @@ html{
     
     .viagens p{
         width: 85vw;
+        margin-left: 80px;
         font-size: 1.5rem;
     }
     
@@ -264,8 +276,8 @@ html{
     
     .viagens img{
         width: 90vw;
-        height: 160vh;
-        margin-left: 40px;
+        height: 120vh;
+        margin-left: 45px;
 
     }
 
@@ -323,7 +335,7 @@ html{
         
         .viagens img{
         width: 90vw;
-        height: 120vh;
+        height: 100vh;
         margin-left: 70px;
             
         }
@@ -346,13 +358,19 @@ html{
 
 
         .viagens h5{
-            width: 75vw;
+            width: 80vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: justify;
+            margin-left: 100px;
             font-size: 2rem;
         }
         
         .viagens p{
-            width: 75vw;
+            width: 80vw;
             font-size: 1.5rem;
+            margin-left: 100px;
         }
         
         .viagens h6{
@@ -374,32 +392,40 @@ html{
          
                 padding: 0px;
                 width: 100vw;
+                
                
             }
             
             html{
                 margin: 0px;
                 padding: 0px;
-                width: 100vw;
+                width: 90vw;
               
             }
             
             
             .viagens img{
                 width: 90vw;
-                height: 120vh;
-                margin-left: 40px;
-
-       
+                height: 100vh;
+                margin-left: 30px;
+                margin-right: 30px;
+            }
+     
     
             .viagens h5{
-                width: 65vw;
-                font-size: 1.6rem;
+                width: 75vw;
+                font-size: 1.8rem;
+                
             }
             
             .viagens p{
-                width: 65vw;
+                width: 85vw;
                 font-size: 1.3rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 40px;
+                margin-left: 40px;
             }
             
             .viagens h6{
@@ -414,7 +440,9 @@ html{
         @media screen and (min-width: 460px) and (max-width: 550px) {
             body {
                 padding: 0;
+                margin: 0;
                 width: 100vw;
+               
             }
         
             html {
@@ -424,13 +452,13 @@ html{
             }
         
             .logo {
-                border: 2px solid red;
+                
             }
         
             .viagens img {
-                width: 90vw;
-                height: 120vh;
-                margin-left: 60px;
+                width: 80vw;
+                height: 60vh;
+                margin-left: 45px;
             }
         
             .viagens h3 {
@@ -448,6 +476,7 @@ html{
         
             .viagens p {
                 width: 65vw;
+                margin-left: 80px;
                 font-size: 1.3rem;
             }
         
@@ -456,9 +485,14 @@ html{
             }
         }
         
-        @media screen and (min-width: 200px) and (max-width: 451px) {
+        @media screen and (min-width: 300px) and (max-width: 451px) {
             body {
-                width: 80vw;
+                margin: 0;
+                padding: 0;
+                width: 100vw;
+                margin-left: 5px;
+                margin-right: 5px;
+                
             }
         
             html {
@@ -466,20 +500,28 @@ html{
                 padding: 0;
                 width: 100vw;
             }
+
+            .logo img{
+                width: 70%;
+                
+                
+            }
         
             .viagens img {
-                width: 90vw;
-                height: 160vh;
-                margin-left: 0;
-                border: 2px solid red;
+                width: 75vw;
+                height: 50vh;
+                margin-left: 30px;
+                
             }
         
             .viagens h3 {
+                width: 70vw;
                 font-size: 2rem;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                border: 2px solid red;
+                margin-left: 40px;
+                
             }
         
             .viagens h4 {
@@ -489,15 +531,23 @@ html{
             .viagens h5 {
                 width: 65vw;
                 font-size: 1.6rem;
+                margin-left: 45px;
             }
         
             .viagens p {
                 width: 65vw;
                 font-size: 1.3rem;
+                margin-left: 45px;
             }
         
             .viagens h6 {
                 font-size: 1.2rem;
+            }
+
+
+            .btns .btn-exp{
+                width: 100px;
+                font-size: 1.6rem;
             }
         }
         
