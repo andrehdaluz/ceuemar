@@ -35,7 +35,7 @@ body {
     background-position-y: 0px;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 110vh;
+    height: 160vh;
 	
 }
 
@@ -120,7 +120,7 @@ header {
 .primary-text {
     width: 100vw;
 	height: 15vh;
-	margin-top:50px;
+	margin-top:500px;
     font-size: 18rem;
     text-align: center;
     animation: changeColor 2s infinite alternate;
@@ -170,7 +170,7 @@ header {
 		margin-top: 100px;
 		margin-bottom: 0px;
 		display: flex;
-		flex-direction: flex; /* Altera a direção dos botões para coluna */
+		flex-direction: column; /* Altera a direção dos botões para coluna */
 		align-items: center; /* Centraliza os botões */
 		gap: 20px;
 	}
@@ -446,6 +446,7 @@ footer{
 
 	.primary-text{
 		font-size: 10rem;
+		
 	
 	}
 	
@@ -521,7 +522,7 @@ footer{
 
 
 	.primary-text{
-		margin-top: 300px;
+		margin-top: 600px;
 		width: 100vw;
 		font-size: 5.8rem;
 		
@@ -650,7 +651,7 @@ footer{
 	
 		.primary-text{
 			width: 100vw;
-			margin-top: 300px;
+			margin-top: 600px;
 			font-size: 7rem;
 			
 			
@@ -757,7 +758,8 @@ footer{
 			.primary-text{
 				width: 60vw;
 				font-size: 5.5rem;
-				margin-top: 500px;
+				margin-top: 900px;
+				margin-bottom: 50px;
 			
 			
 			}
@@ -831,6 +833,13 @@ footer{
 				width: 70vw;
 				margin: 0px;
 			}
+
+			.btns a{
+				width: 120%;
+				font-size: 4rem;
+				border: 5px solid rgb(255, 255, 255);
+				
+			}
 			
 			
 		
@@ -902,7 +911,8 @@ footer{
 			.primary-text{
 				width: 100vw;
 				font-size: 5rem;
-				margin-top: 300px;
+				margin-top: 600px;
+				margin-bottom: 50px;
 			
 				
 				
@@ -965,6 +975,13 @@ footer{
 			.agenda .itens-agenda{
 				width: 70vw;
 				margin: 20px;
+			}
+
+			.btns a{
+				width: 120%;
+				font-size: 4rem;
+				border: 5px solid rgb(255, 255, 255);
+				
 			}
 		
 		}
@@ -1038,7 +1055,7 @@ footer{
 				.primary-text{
 					width: 60vw;
 					font-size: 3rem;
-					margin-top: 300px;
+					margin-top: 600px;
 					
 			
 				}
@@ -1054,6 +1071,15 @@ footer{
 
 				.btns{
 					width: 90%;
+					
+					
+					
+				}
+
+				.btns a{
+					width: 90%;
+					font-size: 3rem;
+					border: 5px solid rgb(255, 255, 255);
 					
 				}
 
