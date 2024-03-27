@@ -137,6 +137,7 @@ body {
     flex-direction: flex; /* Altera a direção dos botões para coluna */
     align-items: center; /* Centraliza os botões */
     gap: 20px;
+    padding-bottom: 50px;
 }
 
 .btn-exp {
