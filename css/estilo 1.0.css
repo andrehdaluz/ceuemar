@@ -162,21 +162,6 @@ header {
 
 }
 
-.second-text {
-	padding-top: 5rem;
-	font-size: 5rem;
-	color: rgb(165, 165, 165);
-	text-transform: uppercase;
-}
-
-.second-text:hover{
-	cursor: pointer;
-	color: #3e3e3d;
-	font-weight: bold;
-	transition: 0.5s;
-}
-
-
 
 	/* Botões */
 	.btns {	
@@ -194,7 +179,7 @@ header {
 	
 	
 	.btn-exp {
-		width: 200px; /* Define a largura dos botões como 100% */
+		width: 150px; /* Define a largura dos botões como 100% */
 		height: 70px;
 		display: flex;
 		align-items: center;
@@ -465,7 +450,6 @@ footer{
 			font-size: 3.5rem;
 			
 			
-	
 		}
 	
 		
