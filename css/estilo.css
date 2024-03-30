@@ -19,53 +19,66 @@ html {
 	color: white;
 	font-family: 'Lato', sans-serif;
 	scroll-behavior: smooth;
+	overflow-x: hidden;
+	background-color: #1f1e1f;
+	
 }
 
 body {
-    /*background: linear-gradient(rgb(17, 17, 17, 0.1),
-	 rgb(20, 20, 20, 0.8)), url(img/img1.svg);*/
-    background-color: rgb(138, 137, 135);
-	background-image: url(img/img2.png);
-    background-position: center center;
+ 	background-image: url(img/img2.1.png);
+   	background-position: center center;
     background-size: cover;
     background-position-y: 0px;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-	padding-right: 0px;
+    width: 100vw;
+    height: 200vh;
+	
+	
 }
 
 
 /* Menu - Header - NavBar */
 header {
-	width: 100%;
+	width: 100vw;
 	height: 10vh;
 	background: rgba(22, 22, 22, 0.8);
 }
-
 
 .menu-content { /*Navbar*/
 	text-transform: uppercase;
 	height: 100%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
-	font-size: 1.8rem;
+	font-size: 2.5rem;
+	
 	
 }
 
-.logo {
-	font-size: 1.8rem;
-	letter-spacing: 0.4rem;
+.logo{
+	margin: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	cursor: pointer;
+
 }
 
-.logo:hover{
-	cursor: pointer;
-	color: #f49e12;
-	font-weight: bold;
-	transition: 0.5s;
+/*.background-carousel{
+	width: 100vw;
+	height: 30vh;
+	margin: 0;
+
 }
+
+.carouselslide{
+	width: 1500px;
+	height: 510px;
+	margin: 10px;
+	
+	
+	
+}*/
 
 .menu-content .list-itens {
 	display: flex;
@@ -100,10 +113,11 @@ header {
 /* Centro - Conteudo Principal */
 .conteudo-principal {/*mudança de class para section linha 46 sobre nós*/
 	height: 50vh;
-	margin-top: 400px;
+	margin-top: 100px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 }
 
 .main-content {
@@ -115,14 +129,15 @@ header {
 	align-items: center;
 }
 
-
 .primary-text {
-    width: 850px;
-	padding-top: 12rem;
-    font-size: 5rem;
-    margin-bottom: 1rem;
+    width: 100vw;
+	height: 15vh;
+	padding-top: 400px;
+    font-size: 18rem;
     text-align: center;
     animation: changeColor 2s infinite alternate;
+	
+	
 }
 
 .primary-text:hover{
@@ -146,264 +161,78 @@ header {
 
 }
 
-.second-text {
-	padding-top: 5rem;
-	margin-bottom: 30rem;
-	font-size: 2rem;
-	color: rgb(165, 165, 165);
-	text-transform: uppercase;
-}
-
-.second-text:hover{
-	cursor: pointer;
-	color: #3e3e3d;
-	font-weight: bold;
-	transition: 0.5s;
-}
-
-/* Botões */
-.btns {
-	margin-top: -200px;
-	margin-bottom: 300px;
-	display: flex;
-	flex-direction: flex; /* Altera a direção dos botões para coluna */
-	align-items: center; /* Centraliza os botões */
-	gap: 20px;
-}
-
-.btns button {
-	width: 150%; /* Define a largura dos botões como 100% */
-	height: 60px;
-	cursor: pointer;
-	border: 2px solid white;
-	color: white;
-	text-transform: uppercase;
-	background-color: transparent;
-	font-weight: bold;
-	letter-spacing: 0.2rem;
-	border-radius: 20px;
-	position: relative;
-	transition: 1.5s;
-
-}
-
-.btns button:hover {
-	color: rgb(32, 178, 170);
-	border: none;
-}
-
-.btns button:before {
-	content: ' ';
-	border-radius: 20px;
-	bottom: 0;
-	left: 0;
-	position: absolute;
-	width: 0;
-	height: 60px;
-	background-color: rgb(61, 61, 61);
-	z-index: -1;
-	transition: width 1s;
-}
-
-.btns button:hover:before {
-	width: 100%;
-}
-
-
-/* Sobre Nós */
-.sobre-nos {
-	background-color: rgb(138, 137, 135);
-	padding-top: 2rem;
-	padding-bottom: 5rem;
-	padding-left: 3rem;
-	color: rgb(255, 255, 255);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-position: center center;
-    background-size: cover;
-    background-position-y: 0px;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-	padding-right: 0px;
-	
-
-
-}
-
-.main{
-	
-	display: flex;
-	justify-content: space-between;
-
-}
-
-.contentsobre{
-	display: flex;
-	flex-direction: column;
-	align-content: center;
-	justify-content: center;
-
-}
-
-
-
-.contentsobre h2{
-	font-size: 6rem;
-	margin-bottom: 1rem;
-	text-align: center;
-}
-
-.contentsobre p{
-	text-align: center;
-	font-size: 1.8rem;
-	width: 600px;
-	text-align: justify;
-}
-
-.sobre-nos img{
-	width: 400px;
-	height: 400px;
-	margin-top: 10rem;
-	margin-left: 10rem;
-	border: 5px solid rgb(155,155,155);
-
-}
-
-/* AGENDA */
-
 .agenda{
-	width: 100vw;
-	display: flex; /*permite modificar a posição*/
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	background-color: #1f1e1f;
-}
-
-.agenda h2{
-	font-size: 5rem;
-	color: #e6e6e6;
-	text-transform: uppercase;
-	margin-bottom: 1.6rem;
-	
-}
-
-.agenda .calendario h3{
+	width: 90vw;
+	height: 40vh;
 	margin-top: 100px;
-	margin-bottom: 50px;
-	font-size: 3rem;
+	padding-top: 0px;
+}
+
+.agenda h5{
+	font-size: 5rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: white;
-	text-transform: uppercase;
-	text-decoration: underline;
+	margin-top: 100px;
 }
 
-.agenda .calendario h3:hover{
-	cursor: pointer;
-	color: #ffc222;
-	font-weight: bold;
-	letter-spacing: 0.2rem;
-	transition: 0.5s;
+	/* Botões */
+	.btns {	
+		width: 90vw;
+		margin-top: 400px;
+		margin-bottom: 0px;
+		display: flex;
+		flex-direction: column; /* Altera a direção dos botões para coluna */
+		align-items: center; /* Centraliza os botões */
+		flex-wrap: wrap; /* Permite que os botões quebrem para uma nova linha quando não couberem mais */
+    	justify-content: center; /* Centraliza os botões horizontalmente */
+		gap: 20px;
+	}
+
 	
-}
-
-.itens-agenda {/*itens-cardapio***/
-
-    width: 90%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-	margin-left: 4.5rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    gap: 30px;
-}
-
-.itens-agenda .info {
-    background-color: black;
-    border: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    padding: 1.4rem;
-    height: 700px; /* Defina uma altura fixa para todos os elementos */
- 
-}
-
-.itens-agenda .info h4{
-	font-size: 2.5rem;
-	text-transform: uppercase;
-	margin-bottom: 1.3rem;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	cursor: pointer;
-	transition: all 200ms ease-in;
-}
-
-.itens-agenda .info h4:hover{
-	color: #ffc506;
-}
-
-.itens-agenda .info h5{
-	font-size: 1.5rem;
-	text-transform: uppercase;
-	margin-bottom: 1.6rem;
-	justify-content: center;
-	align-items: center;
-	text-align: justify;
 	
-}
-
-.itens-agenda .info h6{
-	font-size: 1.2rem;
-	text-transform: uppercase;
-	margin-bottom: 1.6rem;
-	justify-content: center;
-	align-items: center;
-	text-align: justify;
+	.btn-exp {
+		width: 150px; /* Define a largura dos botões como 100% */
+		height: 70px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		border: 4px solid white;
+		color: white;
+		text-transform: uppercase;
+		background-color: transparent;
+		font-weight: bold;
+		letter-spacing: 0.4rem;
+		border-radius: 20px;
+		position: relative;
+		transition: 1.5s;
+		font-size: 1.2rem;
 	
-}
+	}
 
-.itens-agenda .info p{
-	color: #f6d346;
-	font-size: 1rem;
-	text-transform: uppercase;
-	margin-bottom: 1.6rem;
-	justify-content: center;
-	align-items: center;
-	text-align: justify;
 	
-}
-
-.itens-agenda img{
-	width: 100%;
-	height: 350px;
-}
-
+	
 
 /* Contatos */
 
 .contatos{
-	width: 100%;
-	background-color: #1f1e1f;
+	width: 100vw;
+	margin-top: 260px;
+	background-color: #da09da;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	font-size: 1.8rem;
+	font-size: 1.2rem;
 	color: white;
-	padding-bottom: 4rem;
+	padding-bottom: 7rem;
+	border: 2px solid red;
 
 }
 
 .contatos h3{
-	font-size: 6rem;
+	font-size: 3rem;
 	margin-bottom: 3rem;
 	
 }
@@ -446,203 +275,209 @@ footer{
 /* ------------------------------------------------------------------------------ */
 
 
-@media (max-width: 1900px){
 
-	body{
-        padding-bottom: 0px;
-    }
-    
-    .sobre-nos{
-		padding-top: 0px;
-        
+@media screen and (min-width:1201px) and (max-width:2500px){
+
+
+	.body{
+		width: 100vw;
+		height: 100vh;
+		
+		
 	}
 
-    .itens-agenda{
-        margin: auto;
-    }
-   
+	
+	.primary-text{
+		font-size: 8rem;
+		margin-top: 100px;
+		
+		
+	
+	}
 
-}
+	.btns {
+		padding-top: 800px;
+		padding-bottom: 50px;
+        flex-direction: row; /* Altera a direção dos botões para coluna em telas menores */
+        align-items: center; /* Centraliza os botões verticalmente */
+		margin-left: 40px;
 
-@media (max-width: 1400px){
-
-    body{
-        padding-bottom: auto;
-    }
-
-    .primary-text{
-        padding-top: 10px;
-    }
+	}
 
 
-}
+	.contatos{
+		width: 90vw;
+		margin-top: 700px;
+	}
+	
 
-@media (max-width: 1200px){
 
-    body{
-        padding-bottom: auto;
-    }
-
-    .primary-text{
-        padding-top: 10px;
-     
-    }
 
 
 }
+@media screen and (min-width:699px) and (max-width:1200px){
+	
+	/*html{
+	background-size: contain;
+    background-repeat: no-repeat; /* para garantir que o background não se repita 
+    background-position: center; /* opcional: para centralizar o background 
+		
+	}*/
+	
+	body{	
+		width: 100vw;
+		height: 1800px;
+	
+	}
+	
+	.content{
+		display: flex;
+		align-items: center;
+		justify-content: center;
 
-@media (max-width: 1181px){
+	}
 
-    body{
-       
-    }
+	.content .list-itens{
+		display: flex;
+		
+	}
 
-    .primary-text{
-        padding-top: -50px;
-       
-    }
+	.conteudo-principal{
+		margin: 0px;
+		padding: 0px;
+		
+	
+	}
 
-    .sobre-nos{
-        padding-top: 0px;
-        padding-bottom: 200px;
-        width: 70%;
+	.menu-content{
+		
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 
-    }
-
-    .sobre-nos img{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-     
-    }
-
-    .sobre-nos h2 {
-        font-size: 4.5rem;
-
-    }
-   
-    .sobre-nos p {
-        font-size: 1.8rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-left: 180px;
-        padding-top: 10px;
-
-    }
+	
+	.main-content{
+		margin-top: 0px;
+		height: 50vh;
+		gap: 20px;
+		
 
 
+	}
+
+	header{
+		width: 100vw;
+		height: 10vh;
+		
+
+	}
+
+	.logo{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+	}
+
+
+	.primary-text{
+		margin-top: 50px;
+		width: 60vw;
+		font-size: 5rem;
+		
+		
+	}
+
+	.main{
+		width: 80vw;
+		display: flex;
+		flex-direction: column;
+		margin: 40px 20px ;
+		
+	}
+
+	.btns {
+		margin-top: 800px;
+        flex-direction: row; /* Altera a direção dos botões para coluna em telas menores */
+		display: flex;
+		flex-wrap: wrap; /* Permite que os botões quebrem para uma nova linha quando não couberem mais */
+		justify-content: center; /* Centraliza os botões horizontalmente */
+		margin-left: 40px;
+		padding-bottom: 50px;
+		gap: 20px;
 }
-
-
-
-
-@media (max-width: 1150px){
-
-    .sobre-nos img{
-        padding-left: 0px;
-    }
-    
-    .sobre-nos h2 {
-        
-       padding-left: 160px;
-        
-    }
-
-    .sobre-nos p {
-        
-        padding-left: 190px;
-         
-     }
-
-
-}
-
-
-
-
-@media (max-width: 950px){
-
-    body{
-       
-    }
-
-    .primary-text{
-        padding-top: -50px;
-       
-    }
-
-    .sobre-nos{
-        width: 60%;
-
-    }
-
-    .sobre-nos img{
-        width: 350px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .sobre-nos h2 {
-        font-size: 3.5rem;
-
-    }
-   
-    .sobre-nos p {
-        font-size: 1.5rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-left: 170px;
-        padding-top: 10px;
-
-    }
+	
 
 
 }
 
-@media (max-width: 910px){
+	@media screen and (min-width:250px) and (max-width:699px){
 
-    body{
-       
-    }
+		body{	
+			width: 100vw;
+			height: 1800px;
+						
+		}
+		
+		html{
+			width: 100vw;
+			height: 100vh;
+			
+		}
 
-    .primary-text{
-        padding-top: -50px;
-       
-    }
+		header{
+			width: 0px;
+			height: 0px;
+		}
+		
 
-    .sobre-nos{
-        width: 80%;
+		.logo{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-left: 70px;
+			
+		}
+	
+		
+		.main-content{
+			margin-top: 0px;
+			height: 0px;
+		
+		}
 
-    }
+		
+		.content .list-itens{
+			display: none;
+		
+		
+		}
 
-    .sobre-nos img{
-        width: 250px;
-        height: 250px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+	
+	
+		.primary-text{
+			width: 80vw;
+			height: 30vh;
+			padding-top: 200px;
+			font-size: 3.5rem;
+			
+			
+		}
+	
+		
+		.btns {
+			margin-top: 700px;
+			flex-direction: row; /* Altera a direção dos botões para coluna em telas menores */
+			display: flex;
+			flex-wrap: wrap; /* Permite que os botões quebrem para uma nova linha quando não couberem mais */
+			justify-content: center; /* Centraliza os botões horizontalmente */
+			margin-left: 20px;
+			padding-bottom: 50px;
+			gap: 20px;
 
-    .sobre-nos h2 {
-        font-size: 3.5rem;
-        padding-top: 70px;
-
-    }
-   
-    .sobre-nos p {
-        font-size: 1.5rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-left: 170px;
-        padding-top: 10px;
-
-    }
+				
+	}
 
 
 }
-
-
