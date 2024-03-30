@@ -31,7 +31,7 @@ body {
     background-position-y: 0px;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 300vh;
+    height: 2600px;
 	
 	
 }
@@ -313,7 +313,7 @@ footer{
 	
 	body{	
 		width: 100vw;
-		height: 180vh;
+		height: 1800px;
 	
 	}
 	
@@ -385,7 +385,7 @@ footer{
 	}
 
 	.btns {
-		margin-top: 500px;
+		margin-top: 800px;
         flex-direction: row; /* Altera a direção dos botões para coluna em telas menores */
 		display: flex;
 		flex-wrap: wrap; /* Permite que os botões quebrem para uma nova linha quando não couberem mais */
@@ -403,7 +403,7 @@ footer{
 
 		body{	
 			width: 100vw;
-			height: 160vh;
+			height: 1800px;
 						
 		}
 		
@@ -454,7 +454,7 @@ footer{
 	
 		
 		.btns {
-			margin-top: 400px;
+			margin-top: 700px;
 			flex-direction: row; /* Altera a direção dos botões para coluna em telas menores */
 			display: flex;
 			flex-wrap: wrap; /* Permite que os botões quebrem para uma nova linha quando não couberem mais */
