@@ -170,7 +170,7 @@ header {
 	
 	
 	.btn-exp {
-		width: 20vw; /* Define a largura dos botões como 100% */
+		width: 30vw; /* Define a largura dos botões como 100% */
 		height: 90px;
 		display: flex;
 		align-items: center;
@@ -266,22 +266,24 @@ footer{
 
 	.body{
 		width: 100vw;
-		height: 100vh;
+		height: 100px;
 		
 		
+	}
+
+	html{
+		width: 100vw;
+		height: 100px;
 	}
 
 	
 	.primary-text{
 		font-size: 8rem;
-		margin-top: 100px;
 		
-		
-	
 	}
 
 	.btns {
-		padding-top: 150px;
+		padding-top: 100px;
         flex-direction: column; /* Altera a direção dos botões para coluna em telas menores */
         align-items: center; /* Centraliza os botões verticalmente */
 		margin-left: 60px;
@@ -310,8 +312,13 @@ footer{
 	
 	body{	
 		width: 100vw;
-		height: 1800px;
+		height: 900px;
 	
+	}
+
+	html{
+		width: 100vw;
+		height: 900px;
 	}
 	
 	.content{
@@ -326,12 +333,6 @@ footer{
 		
 	}
 
-	.conteudo-principal{
-		margin: 0px;
-		padding: 0px;
-		
-	
-	}
 
 	.menu-content{
 		
@@ -358,8 +359,6 @@ footer{
 
 	}
 
-	
-
 	.logo{
 		display: flex;
 		align-items: center;
@@ -369,7 +368,6 @@ footer{
 
 
 	.primary-text{
-		margin-top: 50px;
 		width: 60vw;
 		font-size: 4rem;
 		
@@ -385,13 +383,12 @@ footer{
 	}
 
 	.btns {
-		margin-top: 60px;
+		margin-top: -100px;
         flex-direction: row; /* Altera a direção dos botões para coluna em telas menores */
 		display: flex;
 		flex-wrap: wrap; /* Permite que os botões quebrem para uma nova linha quando não couberem mais */
 		justify-content: center; /* Centraliza os botões horizontalmente */
 		margin-left: 40px;
-		padding-bottom: 50px;
 		gap: 20px;
 }
 
@@ -450,7 +447,7 @@ footer{
 		.primary-text{
 			width: 90vw;
 			height: 20vh;
-			margin-top: -150px;
+			margin-top: -200px;
 			font-size: 3rem;
 			
 			
@@ -458,7 +455,7 @@ footer{
 	
 		
 	.btns {
-		margin-top: -150px;
+		margin-top: -180px;
 		flex-direction: row; /* Altera a direção dos botões para coluna em telas menores */
 		display: flex;
 		flex-wrap: wrap; /* Permite que os botões quebrem para uma nova linha quando não couberem mais */
@@ -509,6 +506,7 @@ footer{
 	}
 
 	.primary-text{
+		width: 90vw;
 		font-size: 2.2rem;
 	}
 
