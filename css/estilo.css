@@ -293,9 +293,17 @@ footer{
 
 	.contatos{
 		width: 90vw;
+		height: 10vh;
 		margin-top: 700px;
 	}
 	
+	footer{
+		height: 5vh;
+		margin-top: 10px;
+		background-color: #000000;
+		font-size: bold;
+		
+	}
 
 
 
@@ -312,13 +320,13 @@ footer{
 	
 	body{	
 		width: 100vw;
-		height: 900px;
+		height: 950px;
 	
 	}
 
 	html{
 		width: 100vw;
-		height: 900px;
+		height: 950px;
 	}
 	
 	.content{
@@ -395,22 +403,44 @@ footer{
 .btn-exp{
 	font-size: 2.5rem;
 }
+
+.contatos{
+	width: 100vw;
+	height: 18vh;
+	margin-top: 220px;
+	padding-bottom: 20px;
+	background-color: rgba(22, 22, 22, 0.8);
+	margin-left: 0px;
+}
+
+footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #000000;
+	font-size: bold;
+	
+}
 	
 
 
 }
 
+
+
+
+
+
 	@media screen and (min-width:333px) and (max-width:699px){
 
 		body{	
 			width: 100vw;
-			height: 110vh;
+			height: 150vh;
 				
 		}
 		
 		html{
 			width: 100vw;
-			height: 110vh;
+			height: 150vh;
 			
 		}
 
@@ -472,6 +502,17 @@ footer{
 		font-size: 2.5rem;
 	}
 
+	.contatos{
+		display:none;
+	}
+	
+	footer{
+		margin-top: 400px;
+		background-color: #000000;
+		font-size: bold;
+		
+	}
+
 
 }
 
@@ -479,12 +520,12 @@ footer{
 
 	body{
 		width: 100vw;
-		height: 100vh;
+		height: 120vh;
 	}
 
 	html{
 		width: 100vw;
-		height: 100vh;
+		height: 120vh;
 	}
 
 	header{
@@ -526,6 +567,17 @@ footer{
 		width: 70vw;
 		height: 10vh;
 		font-size: 2.5rem;
+	}
+
+	.contatos{
+		display:none;
+	}
+	
+	footer{
+		margin-top: 200px;
+		background-color: #000000;
+		font-size: bold;
+		
 	}
 
 }
