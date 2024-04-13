@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://kit.fontawesome.com/022252d30f.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="css/estilo.viagens.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+		<title>MAIO</title>
+
+			
+	</head>
+		<body>
+	
+			<section class="logo">
+                <a href="./index.html"></a>
+				<img class="logo-ceuemar" src="./css/img/logo.1.png" alt="Céu&MarTOUR Logo" width="300px">
+			</section>
+			
+			<section class="agenda" id="agenda">
+				
+				<div class="viagens">
+					
+					
+
+
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+
+                    
+						
+                        <h3>AGOSTO</h3>
+                        
+                        <br>
+                        <br>
+                        <br>
+                            
+                        <div class="caparao">
+                            <img src="./css/img/embreve.png" alt="">
+                            
+                            
+                            
+
+                            <h3>Sem Agenda</h3>
+
+                            
+                            
+                                
+                                    <!----------------------------------DESCRIÇÃO------------------------------------>
+                                
+                                
+                                
+
+                            <br><!--------------------------------------------------------------------->
+                            <br><!--------------------------------------------------------------------->
+                            <br><!--------------------------------------------------------------------->
+
+
+                                    <p>                          
+                                
+
+                                <br>
+                                <br>
+                                <br>
+                                <br>                           
+
+                                
+                            <br><!------------------------------------------------------------------------->
+                            <br><!------------------------------------------------------------------------->
+                            <br><!------------------------------------------------------------------------->
+
+                            <!--<a href="" class="btn-detalhes"  target="_blank">AGENDAR</a>-->
+
+                            <br><!------------------------------------------------------------------------->
+                            <br><!------------------------------------------------------------------------->
+                            <br><!------------------------------------------------------------------------->
+                            <br><!------------------------------------------------------------------------->   
+                            <br><!------------------------------------------------------------------------->
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+
+                      
+
+                                    
+            </div>
+
+                           
+                                        
+                </div>
+
+
+
+
+             </section>
+
+					
+                        <div class="btns">
+                            <a href="./index.html" class="btn-exp">Voltar</a>
+                        </div>
+						
+
+						
+
+			<script src="./css/agenda.script.js"></script>	
+		</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/022252d30f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/estilo.viagens.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>AGENDA</title>
+</head>
+<body>
+
+<section class="logo">
+    <a href="./index.html"></a>
+    <img class="logo-ceuemar" src="./css/img/logo.1.png" alt="Céu&MarTOUR Logo" width="300px">
+</section>
+
+<section class="agenda" id="agenda">
+    <div class="viagens">
+         As seções de viagem serão preenchidas dinamicamente aqui 
+    </div>
+</section>
+
+<div class="btns">
+    <a href="./index.html" class="btn-exp">Voltar</a>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var viagens = [
+            {
+                titulo: "Alto Caparaó",
+                descricao: "🫵🏼 Ei, venha conhecer alto Caparaó com a gente, um dos passeios que mais gostamos de fazer.",
+                imagem: "./css/img/ALTO CAPARAÓ.png"
+            },
+           
+           
+            // Adicione mais objetos para outras viagens
+        ];
+
+        var viagensContainer = document.querySelector(".viagens");
+
+        viagens.forEach(function(viagem) {
+            var viagemHTML = `
+                <div class="viagem">
+                    <img src="${viagem.imagem}" alt="${viagem.titulo}">
+                    <h3>${viagem.titulo}</h3>
+                    <h5>${viagem.descricao}</h5>
+                    <p>${viagem.descricao}</p>
+                     Outros elementos e informações da viagem aqui 
+                    👉🏽 Alto Caparaó pertence ao circuito turístico do pico dá bandeira e é um dos portais de entrada para o parque nacional do Caparaó. 
+                    ❤Venha curtir lindas cachoeiras com a gente.
+
+                    <br>📅 Data: 12 a 14/04/2024
+                    <br>🩵 (Sexta a domingo) 🩵
+
+                </div>
+            `;
+
+            viagensContainer.innerHTML += viagemHTML;
+        });
+    });
+</script>
+
+</body>
+</html>-->

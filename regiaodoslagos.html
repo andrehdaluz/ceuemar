@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://kit.fontawesome.com/022252d30f.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="css/estilo.viagens.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+		<title>Região dos Lagos</title>
+
+			
+	</head>
+
+    <style>
+        /* Definindo o tamanho do campo de entrada de nome */
+        input[type="text"] {
+            width: 300px; /* Ajuste o valor conforme necessário */
+            height: 30px;
+        }
+
+        input[type="number"] {
+            width: 300px; /* Ajuste o valor conforme necessário */
+            height: 30px;
+        }
+    </style>
+
+
+		<body>
+	
+			<section class="logo">
+                <a href="./index.html"></a>
+				<img class="logo-ceuemar" src="./css/img/logo.1.png" alt="Céu&MarTOUR Logo" width="300px">
+			</section>
+			
+			<section class="agenda" id="agenda">
+				
+				<div class="viagens">
+					
+                        
+                    <div class="regiaodoslagos">br><br><br><br><br><br>
+
+                        <h5>🏨 REGIÃO DOS LAGOS ☀</h5>
+                            <h5>⭐⭐⭐⭐⭐</h5><br><br><br><br><br><br>
+           
+                       
+                        
+                        <img  src="./css/img/regiaodoslagos (1).png" alt="Caparaó">
+                        <br><br><br>
+                        
+                    <div id="descricao" style="display: none;">
+                        
+                        <h5>🙋🏻‍♂O Roteiro é muito top, com CABO FRIO, MACAÉ E RIO DAS OSTRAS, 4 dias de passeios inesquecíveis, confira os detalhes abaixo.👇🏽😃</h5>
+                        <h5>🫵🏼 Ah, não posso esquecer de falar que o Hotel é Luxo puro, bora com a gente.❤👏🏼</h5> 
+                    
+                    
+                    
+                        <h5>📌 Pacote inclui;</h5>
+                        <h5>🚍 Transporte semi leito.</h5>
+                        <h5>🔌 Tomadas individuais.</h5>
+                        <h5>👦🏻 Guia de turismo.</h5>
+                        <h5>🏨 Hospedagem em Hotel 4 estrelas, frente praia.</h5>
+                        <h5>👉🏽 3 noites e 3 dias.</h5>
+                        <h5>🔖 Benefícios:</h5>
+                        <h5>👉🏽 Piscinas, sauna, academia, sala de jogos, área kids, frigobar, TV e ar condicionado.</h5>
+                        <h5>☕ 1 Cafés da manhã extra.</h5>
+                        <h5>🍞 3 cafés da manhã em hotel.</h5><br><br><br>
+                        
+                        <h5>🙋🏻‍♂ Roteiro previsto, sábado. 20/04.</h5>
+                        <h5>☕ Cafe da manhã extra, dia livre em Cabo Frio.</h5>
+                        <h5>🏨 Check-in Macaé as 18:00 no hotel.</h5><br><br><br>
+                        <h5>👉🏽 Domingo livre em Macaé.</h5><br><br><br>
+                        <h5>👉🏽 Segunda Feira livre em Rio das Ostras C/translado ida e volta.</h5><br><br><br>
+                        <h5>👉🏽 Terça Feira, Manhã livre em Macaé.</h5><br><br><br>
+                        <h5>🚍 Retorno terça, 23/04 as 15:00.</h5><br><br><br><br><br><br>
+  
+                    </div>
+
+
+
+                    
+                            <button class="btn-mostrar-mais" onclick="mostrarMais(this)">Mostrar Mais</button>
+                        
+
+                                <!-- Script JavaScript para controlar a exibição -->
+                                <script>
+                                    function mostrarMais(btn) {
+                                        var descricao = btn.previousElementSibling;
+                                        if (descricao.style.display === "none" || descricao.style.display === "") {
+                                            descricao.style.display = "block";
+                                            btn.textContent = "Mostrar Menos";
+                                        } else {
+                                            descricao.style.display = "none";
+                                            btn.textContent = "Mostrar Mais";
+                                        }
+                                    }
+                                </script> 
+                                
+                                <h2>Reserva de Viagem</h2>
+                                
+                                
+                        <div class="reserva">
+
+                                <div class="reserva.itens">
+
+                                    <form action="#" method="post">
+                                        <label for="nome">Nome:</label><br>
+                                        <input type="text" id="nome" name="nome"><br><br>
+                                        
+                                        <label for="telefone">Telefone:</label><br>
+                                        <input type="text" id="telefone" name="telefone"><br><br>
+
+                                        <label for="quantidade">Quantidade de Passageiros:</label><br>
+                                        <input type="number" id="quantidade" name="quantidade"><br><br>
+                                        
+                                        <label for="embarque">Escolha de Embarque:</label><br>
+
+                                        <input type="radio" id="graal_resende" name="embarque" value="Graal Resende">
+                                        <label for="graal_resende">Graal Resende - R$30,00 - Embarque 23:30 - Plataforma 05</label><br>
+
+                                        <input type="radio" id="floriano" name="embarque" value="Floriano">
+                                        <label for="floriano">Floriano - R$30,00 - Embarque 23:50 - Posto Olá, sentido Rio</label><br>
+
+                                        <input type="radio" id="barra_mansa" name="embarque" value="Barra Mansa">
+                                        <label for="barra_mansa">Barra Mansa - R$0,00 - Embarque 00:20 - Igreja Matriz</label><br>
+
+                                        <input type="radio" id="volta_redonda" name="embarque" value="Volta Redonda">
+                                        <label for="volta_redonda">Volta Redonda - R$0,00 - Embarque 00:40 - Escritório Central</label><br>
+
+                                        <input type="radio" id="pirai" name="embarque" value="Piraí">
+                                        <label for="pirai">Piraí - R$0,00 - Embarque 01:30 - Casa do Mamão - Dutra</label><br><br>
+                                        
+                                        <label>Opções de Pacote:</label><br>
+                                        
+                                        <input type="checkbox" id="aptduplo" name="servico[]" value="aptduplo">
+                                        <label for="aptduplo">6 a 10 anos - R$849,99 - Apartamento DUplo ou Triplo</label><br>
+                                        
+                                        <input type="checkbox" id="aptduplo" name="servico[]" value="aptduplo">
+                                        <label for="aptduplo"> Por Pessoa - R$919,90 - Apartamento Duplo ou Triplo</label><br>
+                                        
+                                        <input type="checkbox" id="aptduplo" name="servico[]" value="aptduplo">
+                                        <label for="aptduplo">Casal - R$1.799,99 - Apartamento Duplo ou Triplo </label><br><br>
+                                        
+                                        <input type="submit" value="Enviar">
+                                    </form><br><br><br>
+
+
+                                </div>
+
+
+                        </div>
+                                    
+                    </div>
+
+                </div><br><br><br><br><br><br><br><br><br>
+					
+                        <div class="btns">
+                            <a href="./abril.html" class="btn-exp">Voltar</a>
+                        </div>
+						
+
+                <script src="./css/agenda.script.js"></script>	
+
+            </section>
+
+
+		</body>
+</html>
