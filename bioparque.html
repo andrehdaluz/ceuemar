@@ -23,6 +23,26 @@
             width: 300px; /* Ajuste o valor conforme necessário */
             height: 30px;
         }
+
+        /* Aumentar o tamanho da fonte do botão "Enviar" */
+    input[type="submit"] {
+        font-size: 16px; /* Defina o tamanho da fonte desejado */
+    }
+
+    /* Estilizar o botão */
+    input[type="submit"] {
+        background-color: #4CAF50; /* Cor de fundo */
+        color: white; /* Cor do texto */
+        padding: 12px 20px; /* Espaçamento interno (topo e base) e (esquerda e direita) */
+        border: none; /* Remove a borda */
+        border-radius: 4px; /* Borda arredondada */
+        cursor: pointer; /* Cursor do mouse */
+    }
+
+    /* Mudar a cor de fundo quando o cursor passa sobre o botão */
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
     </style>
 
 
@@ -69,7 +89,6 @@
                         <img  src="./css/img/bioparque.jpg" alt="Caparaó">
                         <br><br><br>
                         
-                    <div id="descricao" style="display: none;">
                         
                                 <!----------------------------------DESCRIÇÃO------------------------------------>
                             
@@ -95,68 +114,21 @@
                             <h5>💳 Pague até 12x com pequenos ajustes</h5>
 
                             <h5>❌Não incluso:</h5>
-                            <h5>👉🏽 Almoço ou lanche.</h5>
-
-
-                            
-
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-
-                        <br><!------------------------------------------------------------------------->
-                        <br><!------------------------------------------------------------------------->
-                        <br><!------------------------------------------------------------------------->
-
-                       <a href="https://api.whatsapp.com/send?phone=24993031872&text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20viagem%20ao%20BioParque%20e%20AquaRio">
-                                    <button>Enviar mensagem pelo WhatsApp</button>
-
-                        <br><!------------------------------------------------------------------------->
-                        <br><!------------------------------------------------------------------------->
-                        <br><!------------------------------------------------------------------------->
-                        <br><!------------------------------------------------------------------------->   
-                        <br><!------------------------------------------------------------------------->
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                    </div>
+                            <h5>👉🏽 Almoço ou lanche.</h5><br><br><br><br><br><br><br><br><br><br>
 
 
 
-                    
-                            <button class="btn-mostrar-mais" onclick="mostrarMais(this)">Mostrar Mais</button>
+                            <div class="viagens">
+                                <a href="https://api.whatsapp.com/send?phone=24993031872&text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20viagem%20ao%20BioParque%20e%20AquaRio" class="btn-whatsapp">
+                                  <i class="fab fa-whatsapp"></i> Agendar Viagem
+                                </a>
+                              </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                              
+
                         
-
-                                <!-- Script JavaScript para controlar a exibição -->
-                                <script>
-                                    function mostrarMais(btn) {
-                                        var descricao = btn.previousElementSibling;
-                                        if (descricao.style.display === "none" || descricao.style.display === "") {
-                                            descricao.style.display = "block";
-                                            btn.textContent = "Mostrar Menos";
-                                        } else {
-                                            descricao.style.display = "none";
-                                            btn.textContent = "Mostrar Mais";
-                                        }
-                                    }
-                                </script> 
-                                
-                                </div>
-
-
-                        </div>
-                                    
                     </div>
 
-                </div>
-					
-                        <div class="btns">
+                       <div class="btns">
                             <a href="./abril.html" class="btn-exp">Voltar</a>
                         </div>
 						
