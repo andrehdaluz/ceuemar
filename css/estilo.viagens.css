@@ -189,23 +189,46 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
-    margin-left: 150px;
-    font-size: 1.6rem;
+    margin-top: 10px; 
+    font-size: 1.8rem;
     
   }
 
 
   .reserva{
-    width: 100vw;
-    margin-top: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 80vw;
+    margin-top: 100px;
+    margin-left: 30px;
     font-size: 2rem;
     line-height: 1.5;
 
   }
+
+  .viagens {
+    text-align: center; /* Centraliza o conteúdo dentro da div */
+  }
+
+
+  .viagens .btn-whatsapp {
+    background-color: #25D366; /* Cor de fundo do WhatsApp */
+    color: #fff; /* Cor do texto */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Borda arredondada */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor do mouse */
+  }
+  
+  .viagens .btn-whatsapp:hover {
+    background-color: #128C7E; /* Altera a cor de fundo ao passar o mouse */
+  }
+  
+  .viagens .btn-whatsapp i {
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+  }
+  
+  
+
 
   
   
@@ -293,6 +316,7 @@ html{
        
     }
     
+
     html{
         margin: 0px;
         padding: 0px;
