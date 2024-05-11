@@ -62,7 +62,7 @@ body {
 
 
 .viagens h5 {
-    margin-top: 350px; /* Ajuste conforme necessário */
+    margin-top: 40px; /* Ajuste conforme necessário */
     width: 80%; /* O texto ocupará toda a largura do contêiner pai */
     font-size: 3rem; /* Tamanho da fonte */
     text-align: center; /* Centraliza o texto */
@@ -74,7 +74,7 @@ body {
 
 
 .viagens img {
-    margin-top: 50px; /* Define a margem superior como 300px */
+    margin-top: 300px; /* Define a margem superior como 300px */
     margin-left: auto; /* Centraliza horizontalmente definindo a margem esquerda e direita como automáticas */
     margin-right: auto;
     display: block; /* Garante que a imagem seja exibida como um bloco */
@@ -82,6 +82,7 @@ body {
     height: auto; /* Mantém a proporção da imagem ao redimensionar */
     
 }
+
 
 
 .viagens p {
@@ -217,17 +218,29 @@ html{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+   
 }
+
+.viagens h5 {
+    margin-top: 40px; /* Ajuste conforme necessário */
+    width: 90%; /* O texto ocupará toda a largura do contêiner pai */
+    font-size: 3rem; /* Tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+    margin-left: 50px;
+    
+
+}
+
+
 
 .viagens img {
-    max-width: 90vw;
-    max-height: 100vh; 
-    margin-top: 0px; /* Ajuste conforme necessário */
+    margin-top: 300px; /* Define a margem superior como 300px */
+    margin-left: auto; /* Centraliza horizontalmente definindo a margem esquerda e direita como automáticas */
+    margin-right: auto;
+    display: block; /* Garante que a imagem seja exibida como um bloco */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem ao redimensionar */
     
-}
-
-.viagens h5{
-    width: 90vw;
 }
 
 
@@ -293,8 +306,8 @@ html{
     
     .logo{
         position: absolute;
-        top: 20%;
-        left: 35%;
+        top: 15%;
+        left: 33%;
         transform: translate(-50%, -50%);
         cursor: pointer;
      
@@ -308,18 +321,25 @@ html{
         justify-content: center;
     }
     
-    .viagens img {
-        max-width: 80vw;
-        max-height: 90vh; 
-        margin-left: 30px;
+    .viagens h5 {
+        margin-top: 40px; /* Ajuste conforme necessário */
+        width: 90%; /* O texto ocupará toda a largura do contêiner pai */
+        font-size: 3rem; /* Tamanho da fonte */
+        text-align: center; /* Centraliza o texto */
+        margin-left: 50px;
         
     }
-
-
-    .viagens h5{
-        width: 90vw;
-        font-size: 2rem;
-        margin-left: 60px;
+    
+    
+    
+    .viagens img {
+        margin-top: 300px; /* Define a margem superior como 300px */
+        margin-left: auto; /* Centraliza horizontalmente definindo a margem esquerda e direita como automáticas */
+        margin-right: auto;
+        display: block; /* Garante que a imagem seja exibida como um bloco */
+        max-width: 80%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+        height: auto; /* Mantém a proporção da imagem ao redimensionar */
+        
     }
     
     .viagens p{
@@ -367,8 +387,8 @@ html{
     
     .logo{
         position: absolute;
-        top: 20%;
-        left: 30%;
+        top: 15%;
+        left: 33%;
         transform: translate(-50%, -50%);
         cursor: pointer;
      
@@ -382,23 +402,41 @@ html{
         justify-content: center;
     }
     
-    .viagens img {
-        max-width: 80vw;
-        max-height: 90vh; 
-        margin-left: 40px;
-    
+    .viagens h5 {
+        margin-top: 40px; /* Ajuste conforme necessário */
+        width: 90%; /* O texto ocupará toda a largura do contêiner pai */
+        font-size: 2.4rem; /* Tamanho da fonte */
+        text-align: center; /* Centraliza o texto */
+       
     }
+    
+    
+    .espacamento img {
+        margin-left: auto; /* Centraliza horizontalmente definindo a margem esquerda e direita como automáticas */
+        margin-right: auto;
+        display: block; /* Garante que a imagem seja exibida como um bloco */
+        max-width: 90%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+        height: auto; /* Mantém a proporção da imagem ao redimensionar */
+        
+        
+    }
+
+        /* Estilos para a primeira imagem */
+    .viagens img:first-child {
+        margin-top: 400px; /* Define a margem superior como 300px */
+    }
+
+    /* Estilos para todas as imagens exceto a primeira */
+    .viagens img:not(:first-child) {
+        margin-top: 100px; /* Define a margem superior como 100px */
+    }
+
 
     .viagens h4{
         font-size: 4rem;
     }
 
 
-    .viagens h5{
-        width: 85vw;
-        font-size: 2rem;
-        margin-left: 60px;
-    }
     
     .viagens p{
         width: 85vw;
@@ -421,8 +459,10 @@ html{
         font-size: 1.6rem;
     }
     
- 
-}
+    
+    
+    
+    }
 
     @media screen and (min-width:600px) and (max-width:801px){
 
@@ -445,7 +485,7 @@ html{
         .logo{
             position: absolute;
             top: 15%;
-            left: 25%;
+            left: 28%;
             transform: translate(-50%, -50%);
             cursor: pointer;
          
@@ -459,11 +499,32 @@ html{
             justify-content: center;
         }
         
+        .viagens h5 {
+            margin-top: 40px; /* Ajuste conforme necessário */
+            width: 80%; /* O texto ocupará toda a largura do contêiner pai */
+            font-size: 2.4rem; /* Tamanho da fonte */
+            text-align: center; /* Centraliza o texto */
+           
+        }
+        
+        
         .viagens img {
-            max-width: 80vw;
-            max-height: 90vh; 
-            margin-left: 20px;
+            margin-left: auto; /* Centraliza horizontalmente definindo a margem esquerda e direita como automáticas */
+            margin-right: auto;
+            display: block; /* Garante que a imagem seja exibida como um bloco */
+            max-width: 90%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+            height: auto; /* Mantém a proporção da imagem ao redimensionar */
             
+        }
+    
+            /* Estilos para a primeira imagem */
+        .viagens img:first-child {
+            margin-top: 400px; /* Define a margem superior como 300px */
+        }
+    
+        /* Estilos para todas as imagens exceto a primeira */
+        .viagens img:not(:first-child) {
+            margin-top: 100px; /* Define a margem superior como 100px */
         }
 
         .viagens h3{
@@ -482,16 +543,6 @@ html{
 
         }
 
-
-        .viagens h5{
-            width: 80vw;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: justify;
-            margin-left: 60px;
-            font-size: 2rem;
-        }
         
         .viagens p{
             width: 80vw;
@@ -513,7 +564,10 @@ html{
         }
         
         
-    }
+        
+        
+        
+        }
 
         @media screen and (min-width:551px) and (max-width:599px){
 
@@ -549,33 +603,33 @@ html{
                 align-items: center;
                 justify-content: center;
             }
-
-            .viagens h4{
-                width: 90%; /* O texto ocupará toda a largura do contêiner pai */
-                font-size: 3rem; /* Tamanho da fonte */
-                text-align: center; /* Centraliza o texto */
-                margin-left: 40px;
-            }
             
             .viagens h5 {
-                margin-top: 350px; /* Ajuste conforme necessário */
-                width: 90%; /* O texto ocupará toda a largura do contêiner pai */
-                font-size: 3rem; /* Tamanho da fonte */
+                margin-top: 40px; /* Ajuste conforme necessário */
+                width: 80%; /* O texto ocupará toda a largura do contêiner pai */
+                font-size: 2.4rem; /* Tamanho da fonte */
                 text-align: center; /* Centraliza o texto */
-                margin-left: 50px;
-                
-            
+               
             }
             
             
-            .viagens img {
-                margin-top: 50px; /* Define a margem superior como 300px */
-                margin-left: 70px;
+            .espacamento img {
+                margin-left: auto; /* Centraliza horizontalmente definindo a margem esquerda e direita como automáticas */
                 margin-right: auto;
                 display: block; /* Garante que a imagem seja exibida como um bloco */
-                max-width: 80%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+                max-width: 90%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
                 height: auto; /* Mantém a proporção da imagem ao redimensionar */
-                
+                border: 2px solid red;
+            }
+        
+                /* Estilos para a primeira imagem */
+            .viagens img:first-child {
+                margin-top: 350px; /* Define a margem superior como 300px */
+            }
+        
+            /* Estilos para todas as imagens exceto a primeira */
+            .viagens img:not(:first-child) {
+                margin-top: 100px; /* Define a margem superior como 100px */
             }
             
             .viagens p{
@@ -603,8 +657,7 @@ html{
 
         }
 
-        @media screen and (min-width: 460px) and (max-width: 550px) { /*Resolução g30*/
-
+        @media screen and (min-width: 460px) and (max-width: 550px) {
             body {
                 padding: 0;
                 margin: 0;
@@ -620,16 +673,13 @@ html{
         
             .logo{
                 position: absolute;
-                top: 11%;
+                top: 12%;
                 left: 24%;
                 transform: translate(-50%, -50%);
                 cursor: pointer;
              
             }
 
-            .logo img{
-                width: 250px;
-            }
             
             .container {
                 width: 90vw;
@@ -639,41 +689,43 @@ html{
                 justify-content: center;
             }
             
-            .viagens h4{
-                width: 90%; /* O texto ocupará toda a largura do contêiner pai */
-                font-size: 3rem; /* Tamanho da fonte */
-                text-align: center; /* Centraliza o texto */
-                margin-left: 40px;
-            }
-            
             .viagens h5 {
-                margin-top: 250px; /* Ajuste conforme necessário */
-                width: 90%; /* O texto ocupará toda a largura do contêiner pai */
-                font-size: 3rem; /* Tamanho da fonte */
+                margin-top: 40px; /* Ajuste conforme necessário */
+                width: 80%; /* O texto ocupará toda a largura do contêiner pai */
+                font-size: 2.4rem; /* Tamanho da fonte */
                 text-align: center; /* Centraliza o texto */
-                margin-left: 50px;
-                
-            
+               
             }
             
             
             .viagens img {
-                margin-top: 10px; /* Define a margem superior como 300px */
-                margin-left: 70px;
+                margin-left: auto; /* Centraliza horizontalmente definindo a margem esquerda e direita como automáticas */
                 margin-right: auto;
                 display: block; /* Garante que a imagem seja exibida como um bloco */
-                max-width: 80%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+                max-width: 90%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
                 height: auto; /* Mantém a proporção da imagem ao redimensionar */
                 
-
-           
-
+            }
+        
+                /* Estilos para a primeira imagem */
+            .viagens img:first-child {
+                margin-top: 250px; /* Define a margem superior como 300px */
+            }
+        
+            /* Estilos para todas as imagens exceto a primeira */
+            .viagens img:not(:first-child) {
+                margin-top: 100px; /* Define a margem superior como 100px */
+            }
         
             .viagens h3 {
                 font-size: 2.6rem;
                 margin-left: 20px;
                
                 
+            }
+        
+            .viagens h4 {
+                font-size: 2rem;
             }
         
         
@@ -693,7 +745,6 @@ html{
                 font-size: 1.6rem;
             }
         }
-    }
         
         @media screen and (min-width: 300px) and (max-width: 459px) {
             body {
@@ -713,19 +764,20 @@ html{
                
             }
 
+            .logo img{
+                width: 200px;
+            }
+
 
             .logo{
                 position: absolute;
-                top: 11%;
-                left: 29%;
+                top: 9%;
+                left: 25%;
                 transform: translate(-50%, -50%);
                 cursor: pointer;
              
             }
 
-            .logo img{
-                width: 150px;
-            }
             
             .container {
                 width: 90vw;
@@ -735,32 +787,32 @@ html{
                 justify-content: center;
             }
             
-            .viagens h4{
-                width: 90%; /* O texto ocupará toda a largura do contêiner pai */
-                font-size: 1rem; /* Tamanho da fonte */
-                text-align: center; /* Centraliza o texto */
-                margin-left: 40px;
-            }
-            
             .viagens h5 {
-                margin-top: 150px; /* Ajuste conforme necessário */
+                margin-top: 40px; /* Ajuste conforme necessário */
                 width: 90%; /* O texto ocupará toda a largura do contêiner pai */
-                font-size: 1.8rem; /* Tamanho da fonte */
-                text-align: center; /* Centraliza o texto */
-                margin-left: 30px;
-                
-            
+                font-size: 1.4rem; /* Tamanho da fonte */
+                margin-left: 40px;
+              
             }
             
             
             .viagens img {
-                margin-top: 10px; /* Define a margem superior como 300px */
-                margin-left: 20px;
+                margin-left: 40px;
                 margin-right: auto;
                 display: block; /* Garante que a imagem seja exibida como um bloco */
-                max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+                max-width: 90%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
                 height: auto; /* Mantém a proporção da imagem ao redimensionar */
-               
+                
+            }
+        
+                /* Estilos para a primeira imagem */
+            .viagens img:first-child {
+                margin-top: 150px; /* Define a margem superior como 300px */
+            }
+        
+            /* Estilos para todas as imagens exceto a primeira */
+            .viagens img:not(:first-child) {
+                margin-top: 50px; /* Define a margem superior como 100px */
             }
         
             .viagens h3 {
@@ -774,11 +826,15 @@ html{
                 
             }
         
-
+            .viagens h4 {
+                font-size: 1.2rem;
+            }
+        
             .viagens p {
                 width: 70vw;
                 font-size: 1.3rem;
-                margin-left: 50px;
+                margin-left: 60px;
+                margin-top: 100px;
             }
         
             .viagens h6 {
@@ -786,9 +842,9 @@ html{
             }
 
             .btn-viagens {
-               
+                width: 100vw;
                 margin-top: 60px;
-                margin-left: 0px;
+                margin-left: 12px;
             }
 
 
